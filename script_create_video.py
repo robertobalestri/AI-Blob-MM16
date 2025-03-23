@@ -68,6 +68,9 @@ class VideoAssembler:
     """Class to handle downloading and assembling video clips."""
     
     def __init__(self, downloader: DownloaderService):
+        for f in Path(CLIPS_DIR).glob("*"):
+            f.unlink()
+            logger.info(f"Cleared clips at: {str(CLIPS_DIR)}")
         self.downloader = downloader
         self.ordered_sentences = []
         self.clip_paths = []
@@ -653,10 +656,10 @@ async def main():
     except Exception as e:
         logger.error(f"Error creating video: {e}")
 
-    #finally:
-    #    for f in Path(CLIPS_DIR).glob("*"):
-    #        f.unlink()
-    #        logger.info(f"Cleared clips at: {str(CLIPS_DIR)}")
+    finally:
+        for f in Path(CLIPS_DIR).glob("*"):
+            f.unlink()
+            logger.info(f"Cleared clips at: {str(CLIPS_DIR)}")
     
 
 

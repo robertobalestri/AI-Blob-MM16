@@ -1,0 +1,164 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " grazie a tutti",
+                "start": 45.813,
+                "end": 50.639,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e",
+                    "|",
+                    "a",
+                    "|",
+                    "t",
+                    "u",
+                    "t",
+                    "t",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        15
+                    ]
+                ]
+            },
+            {
+                "text": " no no",
+                "start": 105.23,
+                "end": 108.402,
+                "clean_char": [
+                    "n",
+                    "o",
+                    "|",
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        6
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 45.813,
+                "end": 46.334,
+                "text": " grazie a tutti",
+                "words": [
+                    {
+                        "word": "grazie",
+                        "start": 45.813,
+                        "end": 46.033,
+                        "score": 0.155
+                    },
+                    {
+                        "word": "a",
+                        "start": 46.093,
+                        "end": 46.113,
+                        "score": 0.421
+                    },
+                    {
+                        "word": "tutti",
+                        "start": 46.173,
+                        "end": 46.334,
+                        "score": 0.251
+                    }
+                ]
+            },
+            {
+                "start": 105.23,
+                "end": 105.33,
+                "text": " no no",
+                "words": [
+                    {
+                        "word": "no",
+                        "start": 105.23,
+                        "end": 105.27,
+                        "score": 0.052
+                    },
+                    {
+                        "word": "no",
+                        "start": 105.29,
+                        "end": 105.33,
+                        "score": 0.07
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "grazie",
+                "start": 45.813,
+                "end": 46.033,
+                "score": 0.155
+            },
+            {
+                "word": "a",
+                "start": 46.093,
+                "end": 46.113,
+                "score": 0.421
+            },
+            {
+                "word": "tutti",
+                "start": 46.173,
+                "end": 46.334,
+                "score": 0.251
+            },
+            {
+                "word": "no",
+                "start": 105.23,
+                "end": 105.27,
+                "score": 0.052
+            },
+            {
+                "word": "no",
+                "start": 105.29,
+                "end": 105.33,
+                "score": 0.07
+            }
+        ]
+    }
+}

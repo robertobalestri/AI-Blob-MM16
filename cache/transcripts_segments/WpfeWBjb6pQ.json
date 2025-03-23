@@ -1,0 +1,751 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " Sai, la gente è strana Prima si odia e poi si ama Cambia idea improvvisamente",
+                "start": 1.499,
+                "end": 24.112,
+                "clean_char": [
+                    "s",
+                    "a",
+                    "i",
+                    "|",
+                    "l",
+                    "a",
+                    "|",
+                    "g",
+                    "e",
+                    "n",
+                    "t",
+                    "e",
+                    "|",
+                    "è",
+                    "|",
+                    "s",
+                    "t",
+                    "r",
+                    "a",
+                    "n",
+                    "a",
+                    "|",
+                    "p",
+                    "r",
+                    "i",
+                    "m",
+                    "a",
+                    "|",
+                    "s",
+                    "i",
+                    "|",
+                    "o",
+                    "d",
+                    "i",
+                    "a",
+                    "|",
+                    "e",
+                    "|",
+                    "p",
+                    "o",
+                    "i",
+                    "|",
+                    "s",
+                    "i",
+                    "|",
+                    "a",
+                    "m",
+                    "a",
+                    "|",
+                    "c",
+                    "a",
+                    "m",
+                    "b",
+                    "i",
+                    "a",
+                    "|",
+                    "i",
+                    "d",
+                    "e",
+                    "a",
+                    "|",
+                    "i",
+                    "m",
+                    "p",
+                    "r",
+                    "o",
+                    "v",
+                    "v",
+                    "i",
+                    "s",
+                    "a",
+                    "m",
+                    "e",
+                    "n",
+                    "t",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        78
+                    ]
+                ]
+            },
+            {
+                "text": " Lei pure cambia Continuamente Scioccamente Tu Tu che sei diverso Almeno tu Nell'universo",
+                "start": 31.334,
+                "end": 59.785,
+                "clean_char": [
+                    "l",
+                    "e",
+                    "i",
+                    "|",
+                    "p",
+                    "u",
+                    "r",
+                    "e",
+                    "|",
+                    "c",
+                    "a",
+                    "m",
+                    "b",
+                    "i",
+                    "a",
+                    "|",
+                    "c",
+                    "o",
+                    "n",
+                    "t",
+                    "i",
+                    "n",
+                    "u",
+                    "a",
+                    "m",
+                    "e",
+                    "n",
+                    "t",
+                    "e",
+                    "|",
+                    "s",
+                    "c",
+                    "i",
+                    "o",
+                    "c",
+                    "c",
+                    "a",
+                    "m",
+                    "e",
+                    "n",
+                    "t",
+                    "e",
+                    "|",
+                    "t",
+                    "u",
+                    "|",
+                    "t",
+                    "u",
+                    "|",
+                    "c",
+                    "h",
+                    "e",
+                    "|",
+                    "s",
+                    "e",
+                    "i",
+                    "|",
+                    "d",
+                    "i",
+                    "v",
+                    "e",
+                    "r",
+                    "s",
+                    "o",
+                    "|",
+                    "a",
+                    "l",
+                    "m",
+                    "e",
+                    "n",
+                    "o",
+                    "|",
+                    "t",
+                    "u",
+                    "|",
+                    "n",
+                    "e",
+                    "l",
+                    "l",
+                    "u",
+                    "n",
+                    "i",
+                    "v",
+                    "e",
+                    "r",
+                    "s",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        89
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 1.639,
+                "end": 17.228,
+                "text": " Sai, la gente è strana Prima si odia e poi si ama Cambia idea improvvisamente",
+                "words": [
+                    {
+                        "word": "Sai,",
+                        "start": 1.639,
+                        "end": 5.221,
+                        "score": 0.929
+                    },
+                    {
+                        "word": "la",
+                        "start": 5.541,
+                        "end": 5.641,
+                        "score": 0.483
+                    },
+                    {
+                        "word": "gente",
+                        "start": 5.681,
+                        "end": 6.222,
+                        "score": 0.73
+                    },
+                    {
+                        "word": "è",
+                        "start": 6.242,
+                        "end": 6.322,
+                        "score": 0.398
+                    },
+                    {
+                        "word": "strana",
+                        "start": 6.382,
+                        "end": 6.982,
+                        "score": 0.502
+                    },
+                    {
+                        "word": "Prima",
+                        "start": 11.645,
+                        "end": 12.005,
+                        "score": 0.769
+                    },
+                    {
+                        "word": "si",
+                        "start": 12.125,
+                        "end": 12.225,
+                        "score": 0.878
+                    },
+                    {
+                        "word": "odia",
+                        "start": 12.345,
+                        "end": 12.946,
+                        "score": 0.404
+                    },
+                    {
+                        "word": "e",
+                        "start": 12.966,
+                        "end": 12.986,
+                        "score": 0.021
+                    },
+                    {
+                        "word": "poi",
+                        "start": 13.306,
+                        "end": 13.886,
+                        "score": 0.765
+                    },
+                    {
+                        "word": "si",
+                        "start": 13.906,
+                        "end": 13.966,
+                        "score": 0.04
+                    },
+                    {
+                        "word": "ama",
+                        "start": 14.006,
+                        "end": 15.087,
+                        "score": 0.712
+                    },
+                    {
+                        "word": "Cambia",
+                        "start": 15.227,
+                        "end": 16.167,
+                        "score": 0.48
+                    },
+                    {
+                        "word": "idea",
+                        "start": 16.428,
+                        "end": 16.588,
+                        "score": 0.246
+                    },
+                    {
+                        "word": "improvvisamente",
+                        "start": 16.608,
+                        "end": 17.228,
+                        "score": 0.307
+                    }
+                ]
+            },
+            {
+                "start": 31.574,
+                "end": 58.605,
+                "text": " Lei pure cambia Continuamente Scioccamente Tu Tu che sei diverso Almeno tu Nell'universo",
+                "words": [
+                    {
+                        "word": "Lei",
+                        "start": 31.574,
+                        "end": 31.774,
+                        "score": 0.655
+                    },
+                    {
+                        "word": "pure",
+                        "start": 31.894,
+                        "end": 33.655,
+                        "score": 0.832
+                    },
+                    {
+                        "word": "cambia",
+                        "start": 34.075,
+                        "end": 34.455,
+                        "score": 0.486
+                    },
+                    {
+                        "word": "Continuamente",
+                        "start": 34.475,
+                        "end": 39.517,
+                        "score": 0.798
+                    },
+                    {
+                        "word": "Scioccamente",
+                        "start": 40.317,
+                        "end": 44.059,
+                        "score": 0.817
+                    },
+                    {
+                        "word": "Tu",
+                        "start": 44.659,
+                        "end": 45.76,
+                        "score": 0.911
+                    },
+                    {
+                        "word": "Tu",
+                        "start": 47.18,
+                        "end": 47.34,
+                        "score": 0.748
+                    },
+                    {
+                        "word": "che",
+                        "start": 47.46,
+                        "end": 47.66,
+                        "score": 0.63
+                    },
+                    {
+                        "word": "sei",
+                        "start": 47.84,
+                        "end": 49.041,
+                        "score": 0.825
+                    },
+                    {
+                        "word": "diverso",
+                        "start": 49.181,
+                        "end": 51.222,
+                        "score": 0.688
+                    },
+                    {
+                        "word": "Almeno",
+                        "start": 52.682,
+                        "end": 54.123,
+                        "score": 0.81
+                    },
+                    {
+                        "word": "tu",
+                        "start": 54.263,
+                        "end": 55.043,
+                        "score": 0.841
+                    },
+                    {
+                        "word": "Nell'universo",
+                        "start": 55.763,
+                        "end": 58.605,
+                        "score": 0.693
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "Sai,",
+                "start": 1.639,
+                "end": 5.221,
+                "score": 0.929
+            },
+            {
+                "word": "la",
+                "start": 5.541,
+                "end": 5.641,
+                "score": 0.483
+            },
+            {
+                "word": "gente",
+                "start": 5.681,
+                "end": 6.222,
+                "score": 0.73
+            },
+            {
+                "word": "è",
+                "start": 6.242,
+                "end": 6.322,
+                "score": 0.398
+            },
+            {
+                "word": "strana",
+                "start": 6.382,
+                "end": 6.982,
+                "score": 0.502
+            },
+            {
+                "word": "Prima",
+                "start": 11.645,
+                "end": 12.005,
+                "score": 0.769
+            },
+            {
+                "word": "si",
+                "start": 12.125,
+                "end": 12.225,
+                "score": 0.878
+            },
+            {
+                "word": "odia",
+                "start": 12.345,
+                "end": 12.946,
+                "score": 0.404
+            },
+            {
+                "word": "e",
+                "start": 12.966,
+                "end": 12.986,
+                "score": 0.021
+            },
+            {
+                "word": "poi",
+                "start": 13.306,
+                "end": 13.886,
+                "score": 0.765
+            },
+            {
+                "word": "si",
+                "start": 13.906,
+                "end": 13.966,
+                "score": 0.04
+            },
+            {
+                "word": "ama",
+                "start": 14.006,
+                "end": 15.087,
+                "score": 0.712
+            },
+            {
+                "word": "Cambia",
+                "start": 15.227,
+                "end": 16.167,
+                "score": 0.48
+            },
+            {
+                "word": "idea",
+                "start": 16.428,
+                "end": 16.588,
+                "score": 0.246
+            },
+            {
+                "word": "improvvisamente",
+                "start": 16.608,
+                "end": 17.228,
+                "score": 0.307
+            },
+            {
+                "word": "Lei",
+                "start": 31.574,
+                "end": 31.774,
+                "score": 0.655
+            },
+            {
+                "word": "pure",
+                "start": 31.894,
+                "end": 33.655,
+                "score": 0.832
+            },
+            {
+                "word": "cambia",
+                "start": 34.075,
+                "end": 34.455,
+                "score": 0.486
+            },
+            {
+                "word": "Continuamente",
+                "start": 34.475,
+                "end": 39.517,
+                "score": 0.798
+            },
+            {
+                "word": "Scioccamente",
+                "start": 40.317,
+                "end": 44.059,
+                "score": 0.817
+            },
+            {
+                "word": "Tu",
+                "start": 44.659,
+                "end": 45.76,
+                "score": 0.911
+            },
+            {
+                "word": "Tu",
+                "start": 47.18,
+                "end": 47.34,
+                "score": 0.748
+            },
+            {
+                "word": "che",
+                "start": 47.46,
+                "end": 47.66,
+                "score": 0.63
+            },
+            {
+                "word": "sei",
+                "start": 47.84,
+                "end": 49.041,
+                "score": 0.825
+            },
+            {
+                "word": "diverso",
+                "start": 49.181,
+                "end": 51.222,
+                "score": 0.688
+            },
+            {
+                "word": "Almeno",
+                "start": 52.682,
+                "end": 54.123,
+                "score": 0.81
+            },
+            {
+                "word": "tu",
+                "start": 54.263,
+                "end": 55.043,
+                "score": 0.841
+            },
+            {
+                "word": "Nell'universo",
+                "start": 55.763,
+                "end": 58.605,
+                "score": 0.693
+            }
+        ]
+    }
+}

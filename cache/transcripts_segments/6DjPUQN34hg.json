@@ -1,0 +1,798 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " Kiss me high before you go Summertime so it knows I just want you to know",
+                "start": 2.461,
+                "end": 14.003,
+                "clean_char": [
+                    "k",
+                    "i",
+                    "s",
+                    "s",
+                    "|",
+                    "m",
+                    "e",
+                    "|",
+                    "h",
+                    "i",
+                    "g",
+                    "h",
+                    "|",
+                    "b",
+                    "e",
+                    "f",
+                    "o",
+                    "r",
+                    "e",
+                    "|",
+                    "y",
+                    "o",
+                    "u",
+                    "|",
+                    "g",
+                    "o",
+                    "|",
+                    "s",
+                    "u",
+                    "m",
+                    "m",
+                    "e",
+                    "r",
+                    "t",
+                    "i",
+                    "m",
+                    "e",
+                    "|",
+                    "s",
+                    "o",
+                    "|",
+                    "i",
+                    "t",
+                    "|",
+                    "k",
+                    "n",
+                    "o",
+                    "w",
+                    "s",
+                    "|",
+                    "i",
+                    "|",
+                    "j",
+                    "u",
+                    "s",
+                    "t",
+                    "|",
+                    "w",
+                    "a",
+                    "n",
+                    "t",
+                    "|",
+                    "y",
+                    "o",
+                    "u",
+                    "|",
+                    "t",
+                    "o",
+                    "|",
+                    "k",
+                    "n",
+                    "o",
+                    "w"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        74
+                    ]
+                ]
+            },
+            {
+                "text": " sì linda",
+                "start": 20.298,
+                "end": 34.338,
+                "clean_char": [
+                    "s",
+                    "ì",
+                    "|",
+                    "l",
+                    "i",
+                    "n",
+                    "d",
+                    "a"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        9
+                    ]
+                ]
+            },
+            {
+                "text": " Grazie a tutti",
+                "start": 41.324,
+                "end": 52.242,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e",
+                    "|",
+                    "a",
+                    "|",
+                    "t",
+                    "u",
+                    "t",
+                    "t",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        15
+                    ]
+                ]
+            },
+            {
+                "text": " Sì.",
+                "start": 72.037,
+                "end": 83.275,
+                "clean_char": [
+                    "s",
+                    "ì"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " Ma non è possibile! E' un uomo ragazzi!",
+                "start": 108.149,
+                "end": 126.475,
+                "clean_char": [
+                    "m",
+                    "a",
+                    "|",
+                    "n",
+                    "o",
+                    "n",
+                    "|",
+                    "è",
+                    "|",
+                    "p",
+                    "o",
+                    "s",
+                    "s",
+                    "i",
+                    "b",
+                    "i",
+                    "l",
+                    "e",
+                    "|",
+                    "e",
+                    "|",
+                    "u",
+                    "n",
+                    "|",
+                    "u",
+                    "o",
+                    "m",
+                    "o",
+                    "|",
+                    "r",
+                    "a",
+                    "g",
+                    "a",
+                    "z",
+                    "z",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    20,
+                    21,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    6,
+                    7,
+                    8
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        20
+                    ],
+                    [
+                        21,
+                        40
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 2.461,
+                "end": 6.088,
+                "text": " Kiss me high before you go Summertime so it knows I just want you to know",
+                "words": [
+                    {
+                        "word": "Kiss",
+                        "start": 2.461,
+                        "end": 2.882,
+                        "score": 0.33
+                    },
+                    {
+                        "word": "me",
+                        "start": 2.902,
+                        "end": 2.962,
+                        "score": 0.358
+                    },
+                    {
+                        "word": "high",
+                        "start": 3.162,
+                        "end": 3.423,
+                        "score": 0.523
+                    },
+                    {
+                        "word": "before",
+                        "start": 3.463,
+                        "end": 3.703,
+                        "score": 0.22
+                    },
+                    {
+                        "word": "you",
+                        "start": 3.723,
+                        "end": 3.804,
+                        "score": 0.211
+                    },
+                    {
+                        "word": "go",
+                        "start": 3.844,
+                        "end": 3.944,
+                        "score": 0.422
+                    },
+                    {
+                        "word": "Summertime",
+                        "start": 3.964,
+                        "end": 4.485,
+                        "score": 0.378
+                    },
+                    {
+                        "word": "so",
+                        "start": 4.545,
+                        "end": 4.625,
+                        "score": 0.27
+                    },
+                    {
+                        "word": "it",
+                        "start": 4.785,
+                        "end": 4.886,
+                        "score": 0.448
+                    },
+                    {
+                        "word": "knows",
+                        "start": 4.906,
+                        "end": 5.166,
+                        "score": 0.38
+                    },
+                    {
+                        "word": "I",
+                        "start": 5.346,
+                        "end": 5.367,
+                        "score": 0.046
+                    },
+                    {
+                        "word": "just",
+                        "start": 5.447,
+                        "end": 5.547,
+                        "score": 0.123
+                    },
+                    {
+                        "word": "want",
+                        "start": 5.587,
+                        "end": 5.707,
+                        "score": 0.278
+                    },
+                    {
+                        "word": "you",
+                        "start": 5.747,
+                        "end": 5.807,
+                        "score": 0.025
+                    },
+                    {
+                        "word": "to",
+                        "start": 5.888,
+                        "end": 5.948,
+                        "score": 0.386
+                    },
+                    {
+                        "word": "know",
+                        "start": 6.008,
+                        "end": 6.088,
+                        "score": 0.012
+                    }
+                ]
+            },
+            {
+                "start": 20.298,
+                "end": 20.659,
+                "text": " sì linda",
+                "words": [
+                    {
+                        "word": "sì",
+                        "start": 20.298,
+                        "end": 20.418,
+                        "score": 0.484
+                    },
+                    {
+                        "word": "linda",
+                        "start": 20.438,
+                        "end": 20.659,
+                        "score": 0.356
+                    }
+                ]
+            },
+            {
+                "start": 41.584,
+                "end": 42.266,
+                "text": " Grazie a tutti",
+                "words": [
+                    {
+                        "word": "Grazie",
+                        "start": 41.584,
+                        "end": 41.925,
+                        "score": 0.333
+                    },
+                    {
+                        "word": "a",
+                        "start": 42.005,
+                        "end": 42.025,
+                        "score": 0.17
+                    },
+                    {
+                        "word": "tutti",
+                        "start": 42.065,
+                        "end": 42.266,
+                        "score": 0.465
+                    }
+                ]
+            },
+            {
+                "start": 72.037,
+                "end": 72.317,
+                "text": " Sì.",
+                "words": [
+                    {
+                        "word": "Sì.",
+                        "start": 72.037,
+                        "end": 72.317,
+                        "score": 0.416
+                    }
+                ]
+            },
+            {
+                "start": 108.589,
+                "end": 110.53,
+                "text": " Ma non è possibile!",
+                "words": [
+                    {
+                        "word": "Ma",
+                        "start": 108.589,
+                        "end": 109.71,
+                        "score": 0.686
+                    },
+                    {
+                        "word": "non",
+                        "start": 109.75,
+                        "end": 109.95,
+                        "score": 0.493
+                    },
+                    {
+                        "word": "è",
+                        "start": 109.97,
+                        "end": 109.99,
+                        "score": 0.005
+                    },
+                    {
+                        "word": "possibile!",
+                        "start": 110.03,
+                        "end": 110.53,
+                        "score": 0.424
+                    }
+                ]
+            },
+            {
+                "start": 110.63,
+                "end": 111.51,
+                "text": "E' un uomo ragazzi!",
+                "words": [
+                    {
+                        "word": "E'",
+                        "start": 110.63,
+                        "end": 110.65,
+                        "score": 0.041
+                    },
+                    {
+                        "word": "un",
+                        "start": 110.71,
+                        "end": 110.95,
+                        "score": 0.398
+                    },
+                    {
+                        "word": "uomo",
+                        "start": 111.01,
+                        "end": 111.33,
+                        "score": 0.542
+                    },
+                    {
+                        "word": "ragazzi!",
+                        "start": 111.35,
+                        "end": 111.51,
+                        "score": 0.105
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "Kiss",
+                "start": 2.461,
+                "end": 2.882,
+                "score": 0.33
+            },
+            {
+                "word": "me",
+                "start": 2.902,
+                "end": 2.962,
+                "score": 0.358
+            },
+            {
+                "word": "high",
+                "start": 3.162,
+                "end": 3.423,
+                "score": 0.523
+            },
+            {
+                "word": "before",
+                "start": 3.463,
+                "end": 3.703,
+                "score": 0.22
+            },
+            {
+                "word": "you",
+                "start": 3.723,
+                "end": 3.804,
+                "score": 0.211
+            },
+            {
+                "word": "go",
+                "start": 3.844,
+                "end": 3.944,
+                "score": 0.422
+            },
+            {
+                "word": "Summertime",
+                "start": 3.964,
+                "end": 4.485,
+                "score": 0.378
+            },
+            {
+                "word": "so",
+                "start": 4.545,
+                "end": 4.625,
+                "score": 0.27
+            },
+            {
+                "word": "it",
+                "start": 4.785,
+                "end": 4.886,
+                "score": 0.448
+            },
+            {
+                "word": "knows",
+                "start": 4.906,
+                "end": 5.166,
+                "score": 0.38
+            },
+            {
+                "word": "I",
+                "start": 5.346,
+                "end": 5.367,
+                "score": 0.046
+            },
+            {
+                "word": "just",
+                "start": 5.447,
+                "end": 5.547,
+                "score": 0.123
+            },
+            {
+                "word": "want",
+                "start": 5.587,
+                "end": 5.707,
+                "score": 0.278
+            },
+            {
+                "word": "you",
+                "start": 5.747,
+                "end": 5.807,
+                "score": 0.025
+            },
+            {
+                "word": "to",
+                "start": 5.888,
+                "end": 5.948,
+                "score": 0.386
+            },
+            {
+                "word": "know",
+                "start": 6.008,
+                "end": 6.088,
+                "score": 0.012
+            },
+            {
+                "word": "sì",
+                "start": 20.298,
+                "end": 20.418,
+                "score": 0.484
+            },
+            {
+                "word": "linda",
+                "start": 20.438,
+                "end": 20.659,
+                "score": 0.356
+            },
+            {
+                "word": "Grazie",
+                "start": 41.584,
+                "end": 41.925,
+                "score": 0.333
+            },
+            {
+                "word": "a",
+                "start": 42.005,
+                "end": 42.025,
+                "score": 0.17
+            },
+            {
+                "word": "tutti",
+                "start": 42.065,
+                "end": 42.266,
+                "score": 0.465
+            },
+            {
+                "word": "Sì.",
+                "start": 72.037,
+                "end": 72.317,
+                "score": 0.416
+            },
+            {
+                "word": "Ma",
+                "start": 108.589,
+                "end": 109.71,
+                "score": 0.686
+            },
+            {
+                "word": "non",
+                "start": 109.75,
+                "end": 109.95,
+                "score": 0.493
+            },
+            {
+                "word": "è",
+                "start": 109.97,
+                "end": 109.99,
+                "score": 0.005
+            },
+            {
+                "word": "possibile!",
+                "start": 110.03,
+                "end": 110.53,
+                "score": 0.424
+            },
+            {
+                "word": "E'",
+                "start": 110.63,
+                "end": 110.65,
+                "score": 0.041
+            },
+            {
+                "word": "un",
+                "start": 110.71,
+                "end": 110.95,
+                "score": 0.398
+            },
+            {
+                "word": "uomo",
+                "start": 111.01,
+                "end": 111.33,
+                "score": 0.542
+            },
+            {
+                "word": "ragazzi!",
+                "start": 111.35,
+                "end": 111.51,
+                "score": 0.105
+            }
+        ]
+    }
+}

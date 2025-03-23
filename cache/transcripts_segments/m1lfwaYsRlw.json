@@ -1,0 +1,951 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " ... ... ...",
+                "start": 0.183,
+                "end": 16.636,
+                "clean_char": [
+                    "|",
+                    "|"
+                ],
+                "clean_cdx": [
+                    4,
+                    8
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 40.767,
+                "end": 65.455,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " No!",
+                "start": 76.998,
+                "end": 98.615,
+                "clean_char": [
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " no no",
+                "start": 104.791,
+                "end": 109.128,
+                "clean_char": [
+                    "n",
+                    "o",
+                    "|",
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        6
+                    ]
+                ]
+            },
+            {
+                "text": " No!",
+                "start": 163.027,
+                "end": 178.518,
+                "clean_char": [
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " Uaaah!",
+                "start": 193.807,
+                "end": 222.899,
+                "clean_char": [
+                    "u",
+                    "a",
+                    "a",
+                    "a",
+                    "h"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        7
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 242.727,
+                "end": 264.108,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " ... ... ...",
+                "start": 282.012,
+                "end": 309.518,
+                "clean_char": [
+                    "|",
+                    "|"
+                ],
+                "clean_cdx": [
+                    4,
+                    8
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " Mamma!",
+                "start": 313.467,
+                "end": 340.67,
+                "clean_char": [
+                    "m",
+                    "a",
+                    "m",
+                    "m",
+                    "a"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        7
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 350.356,
+                "end": 375.736,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " no",
+                "start": 379.33,
+                "end": 401.74,
+                "clean_char": [
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        3
+                    ]
+                ]
+            },
+            {
+                "text": " Rilassati, fratello. Niente succederà.",
+                "start": 406.313,
+                "end": 419.898,
+                "clean_char": [
+                    "r",
+                    "i",
+                    "l",
+                    "a",
+                    "s",
+                    "s",
+                    "a",
+                    "t",
+                    "i",
+                    "|",
+                    "f",
+                    "r",
+                    "a",
+                    "t",
+                    "e",
+                    "l",
+                    "l",
+                    "o",
+                    "|",
+                    "n",
+                    "i",
+                    "e",
+                    "n",
+                    "t",
+                    "e",
+                    "|",
+                    "s",
+                    "u",
+                    "c",
+                    "c",
+                    "e",
+                    "d",
+                    "e",
+                    "r",
+                    "à"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        21
+                    ],
+                    [
+                        22,
+                        39
+                    ]
+                ]
+            },
+            {
+                "text": " no no",
+                "start": 462.085,
+                "end": 487.094,
+                "clean_char": [
+                    "n",
+                    "o",
+                    "|",
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        6
+                    ]
+                ]
+            },
+            {
+                "text": " No!",
+                "start": 499.615,
+                "end": 519.882,
+                "clean_char": [
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " ... ...",
+                "start": 530.851,
+                "end": 549.548,
+                "clean_char": [
+                    "|"
+                ],
+                "clean_cdx": [
+                    4
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": " No!",
+                "start": 560.45,
+                "end": 574.034,
+                "clean_char": [
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 592.023,
+                "end": 612.914,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " ... ... ...",
+                "start": 629.62,
+                "end": 655.979,
+                "clean_char": [
+                    "|",
+                    "|"
+                ],
+                "clean_cdx": [
+                    4,
+                    8
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " Ah! Ah!",
+                "start": 658.628,
+                "end": 682.81,
+                "clean_char": [
+                    "a",
+                    "h",
+                    "|",
+                    "a",
+                    "h"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ],
+                    [
+                        5,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": " No!",
+                "start": 685.004,
+                "end": 691.113,
+                "clean_char": [
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 40.767,
+                "end": 40.827,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 40.767,
+                        "end": 40.827,
+                        "score": 0.032
+                    }
+                ]
+            },
+            {
+                "start": 77.038,
+                "end": 77.078,
+                "text": " No!",
+                "words": [
+                    {
+                        "word": "No!",
+                        "start": 77.038,
+                        "end": 77.078,
+                        "score": 0.03
+                    }
+                ]
+            },
+            {
+                "start": 104.851,
+                "end": 104.972,
+                "text": " no no",
+                "words": [
+                    {
+                        "word": "no",
+                        "start": 104.851,
+                        "end": 104.911,
+                        "score": 0.294
+                    },
+                    {
+                        "word": "no",
+                        "start": 104.932,
+                        "end": 104.972,
+                        "score": 0.035
+                    }
+                ]
+            },
+            {
+                "start": 166.309,
+                "end": 166.389,
+                "text": " No!",
+                "words": [
+                    {
+                        "word": "No!",
+                        "start": 166.309,
+                        "end": 166.389,
+                        "score": 0.564
+                    }
+                ]
+            },
+            {
+                "start": 193.807,
+                "end": 193.907,
+                "text": " Uaaah!",
+                "words": [
+                    {
+                        "word": "Uaaah!",
+                        "start": 193.807,
+                        "end": 193.907,
+                        "score": 0.026
+                    }
+                ]
+            },
+            {
+                "start": 242.727,
+                "end": 242.787,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 242.727,
+                        "end": 242.787,
+                        "score": 0.045
+                    }
+                ]
+            },
+            {
+                "start": 313.467,
+                "end": 313.567,
+                "text": " Mamma!",
+                "words": [
+                    {
+                        "word": "Mamma!",
+                        "start": 313.467,
+                        "end": 313.567,
+                        "score": 0.018
+                    }
+                ]
+            },
+            {
+                "start": 350.356,
+                "end": 350.416,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 350.356,
+                        "end": 350.416,
+                        "score": 0.018
+                    }
+                ]
+            },
+            {
+                "start": 379.37,
+                "end": 379.41,
+                "text": " no",
+                "words": [
+                    {
+                        "word": "no",
+                        "start": 379.37,
+                        "end": 379.41,
+                        "score": 0.066
+                    }
+                ]
+            },
+            {
+                "start": 406.313,
+                "end": 406.673,
+                "text": " Rilassati, fratello.",
+                "words": [
+                    {
+                        "word": "Rilassati,",
+                        "start": 406.313,
+                        "end": 406.493,
+                        "score": 0.054
+                    },
+                    {
+                        "word": "fratello.",
+                        "start": 406.513,
+                        "end": 406.673,
+                        "score": 0.038
+                    }
+                ]
+            },
+            {
+                "start": 406.693,
+                "end": 407.193,
+                "text": "Niente succederà.",
+                "words": [
+                    {
+                        "word": "Niente",
+                        "start": 406.693,
+                        "end": 406.853,
+                        "score": 0.115
+                    },
+                    {
+                        "word": "succederà.",
+                        "start": 406.873,
+                        "end": 407.193,
+                        "score": 0.211
+                    }
+                ]
+            },
+            {
+                "start": 462.105,
+                "end": 462.265,
+                "text": " no no",
+                "words": [
+                    {
+                        "word": "no",
+                        "start": 462.105,
+                        "end": 462.205,
+                        "score": 0.396
+                    },
+                    {
+                        "word": "no",
+                        "start": 462.225,
+                        "end": 462.265,
+                        "score": 0.034
+                    }
+                ]
+            },
+            {
+                "start": 499.615,
+                "end": 499.675,
+                "text": " No!",
+                "words": [
+                    {
+                        "word": "No!",
+                        "start": 499.615,
+                        "end": 499.675,
+                        "score": 0.172
+                    }
+                ]
+            },
+            {
+                "start": 560.63,
+                "end": 560.831,
+                "text": " No!",
+                "words": [
+                    {
+                        "word": "No!",
+                        "start": 560.63,
+                        "end": 560.831,
+                        "score": 0.486
+                    }
+                ]
+            },
+            {
+                "start": 592.023,
+                "end": 592.083,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 592.023,
+                        "end": 592.083,
+                        "score": 0.051
+                    }
+                ]
+            },
+            {
+                "start": 658.648,
+                "end": 658.808,
+                "text": " Ah!",
+                "words": [
+                    {
+                        "word": "Ah!",
+                        "start": 658.648,
+                        "end": 658.808,
+                        "score": 0.623
+                    }
+                ]
+            },
+            {
+                "start": 658.828,
+                "end": 658.888,
+                "text": "Ah!",
+                "words": [
+                    {
+                        "word": "Ah!",
+                        "start": 658.828,
+                        "end": 658.888,
+                        "score": 0.136
+                    }
+                ]
+            },
+            {
+                "start": 685.004,
+                "end": 685.044,
+                "text": " No!",
+                "words": [
+                    {
+                        "word": "No!",
+                        "start": 685.004,
+                        "end": 685.044,
+                        "score": 0.067
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "Ehi!",
+                "start": 40.767,
+                "end": 40.827,
+                "score": 0.032
+            },
+            {
+                "word": "No!",
+                "start": 77.038,
+                "end": 77.078,
+                "score": 0.03
+            },
+            {
+                "word": "no",
+                "start": 104.851,
+                "end": 104.911,
+                "score": 0.294
+            },
+            {
+                "word": "no",
+                "start": 104.932,
+                "end": 104.972,
+                "score": 0.035
+            },
+            {
+                "word": "No!",
+                "start": 166.309,
+                "end": 166.389,
+                "score": 0.564
+            },
+            {
+                "word": "Uaaah!",
+                "start": 193.807,
+                "end": 193.907,
+                "score": 0.026
+            },
+            {
+                "word": "Ehi!",
+                "start": 242.727,
+                "end": 242.787,
+                "score": 0.045
+            },
+            {
+                "word": "Mamma!",
+                "start": 313.467,
+                "end": 313.567,
+                "score": 0.018
+            },
+            {
+                "word": "Ehi!",
+                "start": 350.356,
+                "end": 350.416,
+                "score": 0.018
+            },
+            {
+                "word": "no",
+                "start": 379.37,
+                "end": 379.41,
+                "score": 0.066
+            },
+            {
+                "word": "Rilassati,",
+                "start": 406.313,
+                "end": 406.493,
+                "score": 0.054
+            },
+            {
+                "word": "fratello.",
+                "start": 406.513,
+                "end": 406.673,
+                "score": 0.038
+            },
+            {
+                "word": "Niente",
+                "start": 406.693,
+                "end": 406.853,
+                "score": 0.115
+            },
+            {
+                "word": "succederà.",
+                "start": 406.873,
+                "end": 407.193,
+                "score": 0.211
+            },
+            {
+                "word": "no",
+                "start": 462.105,
+                "end": 462.205,
+                "score": 0.396
+            },
+            {
+                "word": "no",
+                "start": 462.225,
+                "end": 462.265,
+                "score": 0.034
+            },
+            {
+                "word": "No!",
+                "start": 499.615,
+                "end": 499.675,
+                "score": 0.172
+            },
+            {
+                "word": "No!",
+                "start": 560.63,
+                "end": 560.831,
+                "score": 0.486
+            },
+            {
+                "word": "Ehi!",
+                "start": 592.023,
+                "end": 592.083,
+                "score": 0.051
+            },
+            {
+                "word": "Ah!",
+                "start": 658.648,
+                "end": 658.808,
+                "score": 0.623
+            },
+            {
+                "word": "Ah!",
+                "start": 658.828,
+                "end": 658.888,
+                "score": 0.136
+            },
+            {
+                "word": "No!",
+                "start": 685.004,
+                "end": 685.044,
+                "score": 0.067
+            }
+        ]
+    }
+}

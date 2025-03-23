@@ -1,0 +1,192 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " Cinque, sei, sette,",
+                "start": 28.6,
+                "end": 30.473,
+                "clean_char": [
+                    "c",
+                    "i",
+                    "n",
+                    "q",
+                    "u",
+                    "e",
+                    "|",
+                    "s",
+                    "e",
+                    "i",
+                    "|",
+                    "s",
+                    "e",
+                    "t",
+                    "t",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    9,
+                    10,
+                    11,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        20
+                    ]
+                ]
+            },
+            {
+                "text": " Tremendo, tremendo",
+                "start": 67.413,
+                "end": 69.758,
+                "clean_char": [
+                    "t",
+                    "r",
+                    "e",
+                    "m",
+                    "e",
+                    "n",
+                    "d",
+                    "o",
+                    "|",
+                    "t",
+                    "r",
+                    "e",
+                    "m",
+                    "e",
+                    "n",
+                    "d",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        19
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 28.741,
+                "end": 30.251,
+                "text": " Cinque, sei, sette,",
+                "words": [
+                    {
+                        "word": "Cinque,",
+                        "start": 28.741,
+                        "end": 29.083,
+                        "score": 0.421
+                    },
+                    {
+                        "word": "sei,",
+                        "start": 29.285,
+                        "end": 29.667,
+                        "score": 0.685
+                    },
+                    {
+                        "word": "sette,",
+                        "start": 29.869,
+                        "end": 30.251,
+                        "score": 0.625
+                    }
+                ]
+            },
+            {
+                "start": 67.533,
+                "end": 69.638,
+                "text": " Tremendo, tremendo",
+                "words": [
+                    {
+                        "word": "Tremendo,",
+                        "start": 67.533,
+                        "end": 68.375,
+                        "score": 0.675
+                    },
+                    {
+                        "word": "tremendo",
+                        "start": 69.097,
+                        "end": 69.638,
+                        "score": 0.444
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "Cinque,",
+                "start": 28.741,
+                "end": 29.083,
+                "score": 0.421
+            },
+            {
+                "word": "sei,",
+                "start": 29.285,
+                "end": 29.667,
+                "score": 0.685
+            },
+            {
+                "word": "sette,",
+                "start": 29.869,
+                "end": 30.251,
+                "score": 0.625
+            },
+            {
+                "word": "Tremendo,",
+                "start": 67.533,
+                "end": 68.375,
+                "score": 0.675
+            },
+            {
+                "word": "tremendo",
+                "start": 69.097,
+                "end": 69.638,
+                "score": 0.444
+            }
+        ]
+    }
+}

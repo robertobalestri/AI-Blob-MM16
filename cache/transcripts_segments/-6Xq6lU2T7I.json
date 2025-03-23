@@ -1,0 +1,136 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " Sì.",
+                "start": 14.813,
+                "end": 28.972,
+                "clean_char": [
+                    "s",
+                    "ì"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " Buonasera, grazie",
+                "start": 103.863,
+                "end": 118.19,
+                "clean_char": [
+                    "b",
+                    "u",
+                    "o",
+                    "n",
+                    "a",
+                    "s",
+                    "e",
+                    "r",
+                    "a",
+                    "|",
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        18
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 14.813,
+                "end": 14.853,
+                "text": " Sì.",
+                "words": [
+                    {
+                        "word": "Sì.",
+                        "start": 14.813,
+                        "end": 14.853,
+                        "score": 0.025
+                    }
+                ]
+            },
+            {
+                "start": 103.863,
+                "end": 106.004,
+                "text": " Buonasera, grazie",
+                "words": [
+                    {
+                        "word": "Buonasera,",
+                        "start": 103.863,
+                        "end": 105.164,
+                        "score": 0.651
+                    },
+                    {
+                        "word": "grazie",
+                        "start": 105.384,
+                        "end": 106.004,
+                        "score": 0.408
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "Sì.",
+                "start": 14.813,
+                "end": 14.853,
+                "score": 0.025
+            },
+            {
+                "word": "Buonasera,",
+                "start": 103.863,
+                "end": 105.164,
+                "score": 0.651
+            },
+            {
+                "word": "grazie",
+                "start": 105.384,
+                "end": 106.004,
+                "score": 0.408
+            }
+        ]
+    }
+}

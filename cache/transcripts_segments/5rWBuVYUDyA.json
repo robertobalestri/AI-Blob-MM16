@@ -1,0 +1,1501 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " Grazie per la visione!",
+                "start": 16.028,
+                "end": 42.522,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e",
+                    "|",
+                    "p",
+                    "e",
+                    "r",
+                    "|",
+                    "l",
+                    "a",
+                    "|",
+                    "v",
+                    "i",
+                    "s",
+                    "i",
+                    "o",
+                    "n",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        23
+                    ]
+                ]
+            },
+            {
+                "text": " Grazie.",
+                "start": 71.547,
+                "end": 76.981,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": " Alex!",
+                "start": 102.327,
+                "end": 126.357,
+                "clean_char": [
+                    "a",
+                    "l",
+                    "e",
+                    "x"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        6
+                    ]
+                ]
+            },
+            {
+                "text": " Sì!",
+                "start": 132.263,
+                "end": 143.468,
+                "clean_char": [
+                    "s",
+                    "ì"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " Andiamo, andiamo, vai, vai! Andiamo, andiamo, vai, vai!",
+                "start": 167.245,
+                "end": 193.233,
+                "clean_char": [
+                    "a",
+                    "n",
+                    "d",
+                    "i",
+                    "a",
+                    "m",
+                    "o",
+                    "|",
+                    "a",
+                    "n",
+                    "d",
+                    "i",
+                    "a",
+                    "m",
+                    "o",
+                    "|",
+                    "v",
+                    "a",
+                    "i",
+                    "|",
+                    "v",
+                    "a",
+                    "i",
+                    "|",
+                    "a",
+                    "n",
+                    "d",
+                    "i",
+                    "a",
+                    "m",
+                    "o",
+                    "|",
+                    "a",
+                    "n",
+                    "d",
+                    "i",
+                    "a",
+                    "m",
+                    "o",
+                    "|",
+                    "v",
+                    "a",
+                    "i",
+                    "|",
+                    "v",
+                    "a",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    18,
+                    19,
+                    20,
+                    21,
+                    23,
+                    24,
+                    25,
+                    26,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    46,
+                    47,
+                    48,
+                    49,
+                    51,
+                    52,
+                    53,
+                    54
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        28
+                    ],
+                    [
+                        29,
+                        56
+                    ]
+                ]
+            },
+            {
+                "text": " Grazie.",
+                "start": 212.2,
+                "end": 221.161,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": " e gol della strega segna per noi Ultraman Gianluca Gianluca Gianluca Gianluca Gianluca",
+                "start": 235.167,
+                "end": 263.416,
+                "clean_char": [
+                    "e",
+                    "|",
+                    "g",
+                    "o",
+                    "l",
+                    "|",
+                    "d",
+                    "e",
+                    "l",
+                    "l",
+                    "a",
+                    "|",
+                    "s",
+                    "t",
+                    "r",
+                    "e",
+                    "g",
+                    "a",
+                    "|",
+                    "s",
+                    "e",
+                    "g",
+                    "n",
+                    "a",
+                    "|",
+                    "p",
+                    "e",
+                    "r",
+                    "|",
+                    "n",
+                    "o",
+                    "i",
+                    "|",
+                    "u",
+                    "l",
+                    "t",
+                    "r",
+                    "a",
+                    "m",
+                    "a",
+                    "n",
+                    "|",
+                    "g",
+                    "i",
+                    "a",
+                    "n",
+                    "l",
+                    "u",
+                    "c",
+                    "a",
+                    "|",
+                    "g",
+                    "i",
+                    "a",
+                    "n",
+                    "l",
+                    "u",
+                    "c",
+                    "a",
+                    "|",
+                    "g",
+                    "i",
+                    "a",
+                    "n",
+                    "l",
+                    "u",
+                    "c",
+                    "a",
+                    "|",
+                    "g",
+                    "i",
+                    "a",
+                    "n",
+                    "l",
+                    "u",
+                    "c",
+                    "a",
+                    "|",
+                    "g",
+                    "i",
+                    "a",
+                    "n",
+                    "l",
+                    "u",
+                    "c",
+                    "a"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        87
+                    ]
+                ]
+            },
+            {
+                "text": " Mettiamoci bene, mettiamoci bene e andiamo avanti.",
+                "start": 283.615,
+                "end": 296.542,
+                "clean_char": [
+                    "m",
+                    "e",
+                    "t",
+                    "t",
+                    "i",
+                    "a",
+                    "m",
+                    "o",
+                    "c",
+                    "i",
+                    "|",
+                    "b",
+                    "e",
+                    "n",
+                    "e",
+                    "|",
+                    "m",
+                    "e",
+                    "t",
+                    "t",
+                    "i",
+                    "a",
+                    "m",
+                    "o",
+                    "c",
+                    "i",
+                    "|",
+                    "b",
+                    "e",
+                    "n",
+                    "e",
+                    "|",
+                    "e",
+                    "|",
+                    "a",
+                    "n",
+                    "d",
+                    "i",
+                    "a",
+                    "m",
+                    "o",
+                    "|",
+                    "a",
+                    "v",
+                    "a",
+                    "n",
+                    "t",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        51
+                    ]
+                ]
+            },
+            {
+                "text": " Grazie.",
+                "start": 350.204,
+                "end": 358.979,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": " Grazie!",
+                "start": 395.902,
+                "end": 415.021,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": " Grazie.",
+                "start": 425.247,
+                "end": 428.842,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": " Grazie a tutti",
+                "start": 467.097,
+                "end": 484.023,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e",
+                    "|",
+                    "a",
+                    "|",
+                    "t",
+                    "u",
+                    "t",
+                    "t",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        15
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi! Ehi! Ehi! Ehi!",
+                "start": 504.492,
+                "end": 512.322,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i",
+                    "|",
+                    "e",
+                    "h",
+                    "i",
+                    "|",
+                    "e",
+                    "h",
+                    "i",
+                    "|",
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    5,
+                    6,
+                    7,
+                    8,
+                    10,
+                    11,
+                    12,
+                    13,
+                    15,
+                    16,
+                    17,
+                    18
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ],
+                    [
+                        6,
+                        10
+                    ],
+                    [
+                        11,
+                        15
+                    ],
+                    [
+                        16,
+                        20
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 16.028,
+                "end": 19.19,
+                "text": " Grazie per la visione!",
+                "words": [
+                    {
+                        "word": "Grazie",
+                        "start": 16.028,
+                        "end": 16.528,
+                        "score": 0.335
+                    },
+                    {
+                        "word": "per",
+                        "start": 16.588,
+                        "end": 16.668,
+                        "score": 0.216
+                    },
+                    {
+                        "word": "la",
+                        "start": 16.748,
+                        "end": 18.109,
+                        "score": 0.908
+                    },
+                    {
+                        "word": "visione!",
+                        "start": 18.169,
+                        "end": 19.19,
+                        "score": 0.45
+                    }
+                ]
+            },
+            {
+                "start": 71.547,
+                "end": 71.667,
+                "text": " Grazie.",
+                "words": [
+                    {
+                        "word": "Grazie.",
+                        "start": 71.547,
+                        "end": 71.667,
+                        "score": 0.032
+                    }
+                ]
+            },
+            {
+                "start": 102.327,
+                "end": 102.407,
+                "text": " Alex!",
+                "words": [
+                    {
+                        "word": "Alex!",
+                        "start": 102.327,
+                        "end": 102.407,
+                        "score": 0.04
+                    }
+                ]
+            },
+            {
+                "start": 132.263,
+                "end": 132.303,
+                "text": " Sì!",
+                "words": [
+                    {
+                        "word": "Sì!",
+                        "start": 132.263,
+                        "end": 132.303,
+                        "score": 0.025
+                    }
+                ]
+            },
+            {
+                "start": 167.385,
+                "end": 168.665,
+                "text": " Andiamo, andiamo, vai, vai!",
+                "words": [
+                    {
+                        "word": "Andiamo,",
+                        "start": 167.385,
+                        "end": 167.685,
+                        "score": 0.402
+                    },
+                    {
+                        "word": "andiamo,",
+                        "start": 167.985,
+                        "end": 168.285,
+                        "score": 0.256
+                    },
+                    {
+                        "word": "vai,",
+                        "start": 168.345,
+                        "end": 168.505,
+                        "score": 0.5
+                    },
+                    {
+                        "word": "vai!",
+                        "start": 168.565,
+                        "end": 168.665,
+                        "score": 0.239
+                    }
+                ]
+            },
+            {
+                "start": 168.765,
+                "end": 170.926,
+                "text": "Andiamo, andiamo, vai, vai!",
+                "words": [
+                    {
+                        "word": "Andiamo,",
+                        "start": 168.765,
+                        "end": 169.266,
+                        "score": 0.501
+                    },
+                    {
+                        "word": "andiamo,",
+                        "start": 169.806,
+                        "end": 170.586,
+                        "score": 0.635
+                    },
+                    {
+                        "word": "vai,",
+                        "start": 170.646,
+                        "end": 170.726,
+                        "score": 0.125
+                    },
+                    {
+                        "word": "vai!",
+                        "start": 170.766,
+                        "end": 170.926,
+                        "score": 0.471
+                    }
+                ]
+            },
+            {
+                "start": 212.2,
+                "end": 212.32,
+                "text": " Grazie.",
+                "words": [
+                    {
+                        "word": "Grazie.",
+                        "start": 212.2,
+                        "end": 212.32,
+                        "score": 0.047
+                    }
+                ]
+            },
+            {
+                "start": 235.187,
+                "end": 236.988,
+                "text": " e gol della strega segna per noi Ultraman Gianluca Gianluca Gianluca Gianluca Gianluca",
+                "words": [
+                    {
+                        "word": "e",
+                        "start": 235.187,
+                        "end": 235.207,
+                        "score": 0.098
+                    },
+                    {
+                        "word": "gol",
+                        "start": 235.227,
+                        "end": 235.287,
+                        "score": 0.055
+                    },
+                    {
+                        "word": "della",
+                        "start": 235.307,
+                        "end": 235.407,
+                        "score": 0.046
+                    },
+                    {
+                        "word": "strega",
+                        "start": 235.427,
+                        "end": 235.547,
+                        "score": 0.046
+                    },
+                    {
+                        "word": "segna",
+                        "start": 235.567,
+                        "end": 235.667,
+                        "score": 0.047
+                    },
+                    {
+                        "word": "per",
+                        "start": 235.687,
+                        "end": 235.747,
+                        "score": 0.049
+                    },
+                    {
+                        "word": "noi",
+                        "start": 235.767,
+                        "end": 235.827,
+                        "score": 0.087
+                    },
+                    {
+                        "word": "Ultraman",
+                        "start": 235.847,
+                        "end": 236.007,
+                        "score": 0.04
+                    },
+                    {
+                        "word": "Gianluca",
+                        "start": 236.027,
+                        "end": 236.187,
+                        "score": 0.042
+                    },
+                    {
+                        "word": "Gianluca",
+                        "start": 236.207,
+                        "end": 236.367,
+                        "score": 0.039
+                    },
+                    {
+                        "word": "Gianluca",
+                        "start": 236.387,
+                        "end": 236.547,
+                        "score": 0.04
+                    },
+                    {
+                        "word": "Gianluca",
+                        "start": 236.567,
+                        "end": 236.748,
+                        "score": 0.094
+                    },
+                    {
+                        "word": "Gianluca",
+                        "start": 236.808,
+                        "end": 236.988,
+                        "score": 0.105
+                    }
+                ]
+            },
+            {
+                "start": 283.615,
+                "end": 287.057,
+                "text": " Mettiamoci bene, mettiamoci bene e andiamo avanti.",
+                "words": [
+                    {
+                        "word": "Mettiamoci",
+                        "start": 283.615,
+                        "end": 284.275,
+                        "score": 0.33
+                    },
+                    {
+                        "word": "bene,",
+                        "start": 284.295,
+                        "end": 284.495,
+                        "score": 0.39
+                    },
+                    {
+                        "word": "mettiamoci",
+                        "start": 284.535,
+                        "end": 284.976,
+                        "score": 0.424
+                    },
+                    {
+                        "word": "bene",
+                        "start": 285.036,
+                        "end": 285.376,
+                        "score": 0.647
+                    },
+                    {
+                        "word": "e",
+                        "start": 285.396,
+                        "end": 285.416,
+                        "score": 0.006
+                    },
+                    {
+                        "word": "andiamo",
+                        "start": 285.436,
+                        "end": 286.657,
+                        "score": 0.46
+                    },
+                    {
+                        "word": "avanti.",
+                        "start": 286.677,
+                        "end": 287.057,
+                        "score": 0.52
+                    }
+                ]
+            },
+            {
+                "start": 350.224,
+                "end": 350.404,
+                "text": " Grazie.",
+                "words": [
+                    {
+                        "word": "Grazie.",
+                        "start": 350.224,
+                        "end": 350.404,
+                        "score": 0.117
+                    }
+                ]
+            },
+            {
+                "start": 395.902,
+                "end": 396.022,
+                "text": " Grazie!",
+                "words": [
+                    {
+                        "word": "Grazie!",
+                        "start": 395.902,
+                        "end": 396.022,
+                        "score": 0.036
+                    }
+                ]
+            },
+            {
+                "start": 425.408,
+                "end": 425.629,
+                "text": " Grazie.",
+                "words": [
+                    {
+                        "word": "Grazie.",
+                        "start": 425.408,
+                        "end": 425.629,
+                        "score": 0.177
+                    }
+                ]
+            },
+            {
+                "start": 467.157,
+                "end": 467.817,
+                "text": " Grazie a tutti",
+                "words": [
+                    {
+                        "word": "Grazie",
+                        "start": 467.157,
+                        "end": 467.357,
+                        "score": 0.186
+                    },
+                    {
+                        "word": "a",
+                        "start": 467.437,
+                        "end": 467.477,
+                        "score": 0.325
+                    },
+                    {
+                        "word": "tutti",
+                        "start": 467.537,
+                        "end": 467.817,
+                        "score": 0.359
+                    }
+                ]
+            },
+            {
+                "start": 504.492,
+                "end": 504.552,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 504.492,
+                        "end": 504.552,
+                        "score": 0.026
+                    }
+                ]
+            },
+            {
+                "start": 504.572,
+                "end": 504.712,
+                "text": "Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 504.572,
+                        "end": 504.712,
+                        "score": 0.226
+                    }
+                ]
+            },
+            {
+                "start": 504.732,
+                "end": 504.832,
+                "text": "Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 504.732,
+                        "end": 504.832,
+                        "score": 0.247
+                    }
+                ]
+            },
+            {
+                "start": 504.852,
+                "end": 504.913,
+                "text": "Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 504.852,
+                        "end": 504.913,
+                        "score": 0.022
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "Grazie",
+                "start": 16.028,
+                "end": 16.528,
+                "score": 0.335
+            },
+            {
+                "word": "per",
+                "start": 16.588,
+                "end": 16.668,
+                "score": 0.216
+            },
+            {
+                "word": "la",
+                "start": 16.748,
+                "end": 18.109,
+                "score": 0.908
+            },
+            {
+                "word": "visione!",
+                "start": 18.169,
+                "end": 19.19,
+                "score": 0.45
+            },
+            {
+                "word": "Grazie.",
+                "start": 71.547,
+                "end": 71.667,
+                "score": 0.032
+            },
+            {
+                "word": "Alex!",
+                "start": 102.327,
+                "end": 102.407,
+                "score": 0.04
+            },
+            {
+                "word": "Sì!",
+                "start": 132.263,
+                "end": 132.303,
+                "score": 0.025
+            },
+            {
+                "word": "Andiamo,",
+                "start": 167.385,
+                "end": 167.685,
+                "score": 0.402
+            },
+            {
+                "word": "andiamo,",
+                "start": 167.985,
+                "end": 168.285,
+                "score": 0.256
+            },
+            {
+                "word": "vai,",
+                "start": 168.345,
+                "end": 168.505,
+                "score": 0.5
+            },
+            {
+                "word": "vai!",
+                "start": 168.565,
+                "end": 168.665,
+                "score": 0.239
+            },
+            {
+                "word": "Andiamo,",
+                "start": 168.765,
+                "end": 169.266,
+                "score": 0.501
+            },
+            {
+                "word": "andiamo,",
+                "start": 169.806,
+                "end": 170.586,
+                "score": 0.635
+            },
+            {
+                "word": "vai,",
+                "start": 170.646,
+                "end": 170.726,
+                "score": 0.125
+            },
+            {
+                "word": "vai!",
+                "start": 170.766,
+                "end": 170.926,
+                "score": 0.471
+            },
+            {
+                "word": "Grazie.",
+                "start": 212.2,
+                "end": 212.32,
+                "score": 0.047
+            },
+            {
+                "word": "e",
+                "start": 235.187,
+                "end": 235.207,
+                "score": 0.098
+            },
+            {
+                "word": "gol",
+                "start": 235.227,
+                "end": 235.287,
+                "score": 0.055
+            },
+            {
+                "word": "della",
+                "start": 235.307,
+                "end": 235.407,
+                "score": 0.046
+            },
+            {
+                "word": "strega",
+                "start": 235.427,
+                "end": 235.547,
+                "score": 0.046
+            },
+            {
+                "word": "segna",
+                "start": 235.567,
+                "end": 235.667,
+                "score": 0.047
+            },
+            {
+                "word": "per",
+                "start": 235.687,
+                "end": 235.747,
+                "score": 0.049
+            },
+            {
+                "word": "noi",
+                "start": 235.767,
+                "end": 235.827,
+                "score": 0.087
+            },
+            {
+                "word": "Ultraman",
+                "start": 235.847,
+                "end": 236.007,
+                "score": 0.04
+            },
+            {
+                "word": "Gianluca",
+                "start": 236.027,
+                "end": 236.187,
+                "score": 0.042
+            },
+            {
+                "word": "Gianluca",
+                "start": 236.207,
+                "end": 236.367,
+                "score": 0.039
+            },
+            {
+                "word": "Gianluca",
+                "start": 236.387,
+                "end": 236.547,
+                "score": 0.04
+            },
+            {
+                "word": "Gianluca",
+                "start": 236.567,
+                "end": 236.748,
+                "score": 0.094
+            },
+            {
+                "word": "Gianluca",
+                "start": 236.808,
+                "end": 236.988,
+                "score": 0.105
+            },
+            {
+                "word": "Mettiamoci",
+                "start": 283.615,
+                "end": 284.275,
+                "score": 0.33
+            },
+            {
+                "word": "bene,",
+                "start": 284.295,
+                "end": 284.495,
+                "score": 0.39
+            },
+            {
+                "word": "mettiamoci",
+                "start": 284.535,
+                "end": 284.976,
+                "score": 0.424
+            },
+            {
+                "word": "bene",
+                "start": 285.036,
+                "end": 285.376,
+                "score": 0.647
+            },
+            {
+                "word": "e",
+                "start": 285.396,
+                "end": 285.416,
+                "score": 0.006
+            },
+            {
+                "word": "andiamo",
+                "start": 285.436,
+                "end": 286.657,
+                "score": 0.46
+            },
+            {
+                "word": "avanti.",
+                "start": 286.677,
+                "end": 287.057,
+                "score": 0.52
+            },
+            {
+                "word": "Grazie.",
+                "start": 350.224,
+                "end": 350.404,
+                "score": 0.117
+            },
+            {
+                "word": "Grazie!",
+                "start": 395.902,
+                "end": 396.022,
+                "score": 0.036
+            },
+            {
+                "word": "Grazie.",
+                "start": 425.408,
+                "end": 425.629,
+                "score": 0.177
+            },
+            {
+                "word": "Grazie",
+                "start": 467.157,
+                "end": 467.357,
+                "score": 0.186
+            },
+            {
+                "word": "a",
+                "start": 467.437,
+                "end": 467.477,
+                "score": 0.325
+            },
+            {
+                "word": "tutti",
+                "start": 467.537,
+                "end": 467.817,
+                "score": 0.359
+            },
+            {
+                "word": "Ehi!",
+                "start": 504.492,
+                "end": 504.552,
+                "score": 0.026
+            },
+            {
+                "word": "Ehi!",
+                "start": 504.572,
+                "end": 504.712,
+                "score": 0.226
+            },
+            {
+                "word": "Ehi!",
+                "start": 504.732,
+                "end": 504.832,
+                "score": 0.247
+            },
+            {
+                "word": "Ehi!",
+                "start": 504.852,
+                "end": 504.913,
+                "score": 0.022
+            }
+        ]
+    }
+}

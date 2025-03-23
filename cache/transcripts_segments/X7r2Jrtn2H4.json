@@ -1,0 +1,1396 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " No!",
+                "start": 9.177,
+                "end": 20.483,
+                "clean_char": [
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " lì",
+                "start": 42.455,
+                "end": 67.885,
+                "clean_char": [
+                    "l",
+                    "ì"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        3
+                    ]
+                ]
+            },
+            {
+                "text": " ... ... ... ...",
+                "start": 112.705,
+                "end": 130.745,
+                "clean_char": [
+                    "|",
+                    "|",
+                    "|"
+                ],
+                "clean_cdx": [
+                    4,
+                    8,
+                    12
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        16
+                    ]
+                ]
+            },
+            {
+                "text": " Ah! Ah! Ah!",
+                "start": 148.885,
+                "end": 173.0,
+                "clean_char": [
+                    "a",
+                    "h",
+                    "|",
+                    "a",
+                    "h",
+                    "|",
+                    "a",
+                    "h"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    4,
+                    5,
+                    6,
+                    8,
+                    9,
+                    10
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ],
+                    [
+                        5,
+                        8
+                    ],
+                    [
+                        9,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " Anna!",
+                "start": 211.357,
+                "end": 241.006,
+                "clean_char": [
+                    "a",
+                    "n",
+                    "n",
+                    "a"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        6
+                    ]
+                ]
+            },
+            {
+                "text": " Oh, oh, oh!",
+                "start": 247.908,
+                "end": 273.085,
+                "clean_char": [
+                    "o",
+                    "h",
+                    "|",
+                    "o",
+                    "h",
+                    "|",
+                    "o",
+                    "h"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    4,
+                    5,
+                    6,
+                    8,
+                    9,
+                    10
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " ... ...",
+                "start": 273.372,
+                "end": 302.11,
+                "clean_char": [
+                    "|"
+                ],
+                "clean_cdx": [
+                    4
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": " No!",
+                "start": 304.102,
+                "end": 333.059,
+                "clean_char": [
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " Mamma!",
+                "start": 333.498,
+                "end": 363.13,
+                "clean_char": [
+                    "m",
+                    "a",
+                    "m",
+                    "m",
+                    "a"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        7
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 368.767,
+                "end": 387.903,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " Buongiorno!",
+                "start": 401.639,
+                "end": 428.15,
+                "clean_char": [
+                    "b",
+                    "u",
+                    "o",
+                    "n",
+                    "g",
+                    "i",
+                    "o",
+                    "r",
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " ... ... ...",
+                "start": 437.92,
+                "end": 463.199,
+                "clean_char": [
+                    "|",
+                    "|"
+                ],
+                "clean_cdx": [
+                    4,
+                    8
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " ... ... ...",
+                "start": 474.286,
+                "end": 501.674,
+                "clean_char": [
+                    "|",
+                    "|"
+                ],
+                "clean_cdx": [
+                    4,
+                    8
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 502.872,
+                "end": 532.775,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " ... ...",
+                "start": 533.062,
+                "end": 561.648,
+                "clean_char": [
+                    "|"
+                ],
+                "clean_cdx": [
+                    4
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": " ... ... ... ...",
+                "start": 563.065,
+                "end": 592.428,
+                "clean_char": [
+                    "|",
+                    "|",
+                    "|"
+                ],
+                "clean_cdx": [
+                    4,
+                    8,
+                    12
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        16
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 595.33,
+                "end": 622.516,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " Ah, ah, ah!",
+                "start": 632.033,
+                "end": 660.468,
+                "clean_char": [
+                    "a",
+                    "h",
+                    "|",
+                    "a",
+                    "h",
+                    "|",
+                    "a",
+                    "h"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    4,
+                    5,
+                    6,
+                    8,
+                    9,
+                    10
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " Oh, oh, oh!",
+                "start": 667.1,
+                "end": 688.835,
+                "clean_char": [
+                    "o",
+                    "h",
+                    "|",
+                    "o",
+                    "h",
+                    "|",
+                    "o",
+                    "h"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    4,
+                    5,
+                    6,
+                    8,
+                    9,
+                    10
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 708.764,
+                "end": 719.817,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " no no",
+                "start": 748.606,
+                "end": 773.497,
+                "clean_char": [
+                    "n",
+                    "o",
+                    "|",
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        6
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 786.018,
+                "end": 814.216,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " No!",
+                "start": 819.464,
+                "end": 821.101,
+                "clean_char": [
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " ... ... ...",
+                "start": 855.02,
+                "end": 872.806,
+                "clean_char": [
+                    "|",
+                    "|"
+                ],
+                "clean_cdx": [
+                    4,
+                    8
+                ],
+                "clean_wdx": [],
+                "sentence_spans": [
+                    [
+                        0,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": " Musica Musica",
+                "start": 879.59,
+                "end": 893.849,
+                "clean_char": [
+                    "m",
+                    "u",
+                    "s",
+                    "i",
+                    "c",
+                    "a",
+                    "|",
+                    "m",
+                    "u",
+                    "s",
+                    "i",
+                    "c",
+                    "a"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        14
+                    ]
+                ]
+            },
+            {
+                "text": " no no",
+                "start": 918.368,
+                "end": 940.238,
+                "clean_char": [
+                    "n",
+                    "o",
+                    "|",
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        6
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 969.888,
+                "end": 980.283,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " Ehi!",
+                "start": 1005.19,
+                "end": 1006.152,
+                "clean_char": [
+                    "e",
+                    "h",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": " Ahahahah! Ahahahah!",
+                "start": 1047.648,
+                "end": 1051.36,
+                "clean_char": [
+                    "a",
+                    "h",
+                    "a",
+                    "h",
+                    "a",
+                    "h",
+                    "a",
+                    "h",
+                    "|",
+                    "a",
+                    "h",
+                    "a",
+                    "h",
+                    "a",
+                    "h",
+                    "a",
+                    "h"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        10
+                    ],
+                    [
+                        11,
+                        20
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 10.037,
+                "end": 10.097,
+                "text": " No!",
+                "words": [
+                    {
+                        "word": "No!",
+                        "start": 10.037,
+                        "end": 10.097,
+                        "score": 0.3
+                    }
+                ]
+            },
+            {
+                "start": 42.455,
+                "end": 42.495,
+                "text": " lì",
+                "words": [
+                    {
+                        "word": "lì",
+                        "start": 42.455,
+                        "end": 42.495,
+                        "score": 0.01
+                    }
+                ]
+            },
+            {
+                "start": 148.885,
+                "end": 148.925,
+                "text": " Ah!",
+                "words": [
+                    {
+                        "word": "Ah!",
+                        "start": 148.885,
+                        "end": 148.925,
+                        "score": 0.028
+                    }
+                ]
+            },
+            {
+                "start": 148.945,
+                "end": 148.985,
+                "text": "Ah!",
+                "words": [
+                    {
+                        "word": "Ah!",
+                        "start": 148.945,
+                        "end": 148.985,
+                        "score": 0.03
+                    }
+                ]
+            },
+            {
+                "start": 149.005,
+                "end": 149.045,
+                "text": "Ah!",
+                "words": [
+                    {
+                        "word": "Ah!",
+                        "start": 149.005,
+                        "end": 149.045,
+                        "score": 0.034
+                    }
+                ]
+            },
+            {
+                "start": 211.357,
+                "end": 211.437,
+                "text": " Anna!",
+                "words": [
+                    {
+                        "word": "Anna!",
+                        "start": 211.357,
+                        "end": 211.437,
+                        "score": 0.017
+                    }
+                ]
+            },
+            {
+                "start": 248.408,
+                "end": 249.229,
+                "text": " Oh, oh, oh!",
+                "words": [
+                    {
+                        "word": "Oh,",
+                        "start": 248.408,
+                        "end": 248.729,
+                        "score": 0.817
+                    },
+                    {
+                        "word": "oh,",
+                        "start": 248.829,
+                        "end": 249.109,
+                        "score": 0.676
+                    },
+                    {
+                        "word": "oh!",
+                        "start": 249.149,
+                        "end": 249.229,
+                        "score": 0.324
+                    }
+                ]
+            },
+            {
+                "start": 304.102,
+                "end": 304.142,
+                "text": " No!",
+                "words": [
+                    {
+                        "word": "No!",
+                        "start": 304.102,
+                        "end": 304.142,
+                        "score": 0.098
+                    }
+                ]
+            },
+            {
+                "start": 334.698,
+                "end": 335.119,
+                "text": " Mamma!",
+                "words": [
+                    {
+                        "word": "Mamma!",
+                        "start": 334.698,
+                        "end": 335.119,
+                        "score": 0.488
+                    }
+                ]
+            },
+            {
+                "start": 368.767,
+                "end": 368.827,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 368.767,
+                        "end": 368.827,
+                        "score": 0.055
+                    }
+                ]
+            },
+            {
+                "start": 402.479,
+                "end": 402.88,
+                "text": " Buongiorno!",
+                "words": [
+                    {
+                        "word": "Buongiorno!",
+                        "start": 402.479,
+                        "end": 402.88,
+                        "score": 0.271
+                    }
+                ]
+            },
+            {
+                "start": 502.872,
+                "end": 502.932,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 502.872,
+                        "end": 502.932,
+                        "score": 0.024
+                    }
+                ]
+            },
+            {
+                "start": 595.33,
+                "end": 595.39,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 595.33,
+                        "end": 595.39,
+                        "score": 0.023
+                    }
+                ]
+            },
+            {
+                "start": 632.033,
+                "end": 632.813,
+                "text": " Ah, ah, ah!",
+                "words": [
+                    {
+                        "word": "Ah,",
+                        "start": 632.033,
+                        "end": 632.293,
+                        "score": 0.344
+                    },
+                    {
+                        "word": "ah,",
+                        "start": 632.353,
+                        "end": 632.733,
+                        "score": 0.711
+                    },
+                    {
+                        "word": "ah!",
+                        "start": 632.753,
+                        "end": 632.813,
+                        "score": 0.197
+                    }
+                ]
+            },
+            {
+                "start": 667.32,
+                "end": 667.64,
+                "text": " Oh, oh, oh!",
+                "words": [
+                    {
+                        "word": "Oh,",
+                        "start": 667.32,
+                        "end": 667.38,
+                        "score": 0.201
+                    },
+                    {
+                        "word": "oh,",
+                        "start": 667.4,
+                        "end": 667.54,
+                        "score": 0.503
+                    },
+                    {
+                        "word": "oh!",
+                        "start": 667.56,
+                        "end": 667.64,
+                        "score": 0.224
+                    }
+                ]
+            },
+            {
+                "start": 708.884,
+                "end": 709.024,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 708.884,
+                        "end": 709.024,
+                        "score": 0.236
+                    }
+                ]
+            },
+            {
+                "start": 748.626,
+                "end": 748.766,
+                "text": " no no",
+                "words": [
+                    {
+                        "word": "no",
+                        "start": 748.626,
+                        "end": 748.666,
+                        "score": 0.03
+                    },
+                    {
+                        "word": "no",
+                        "start": 748.686,
+                        "end": 748.766,
+                        "score": 0.294
+                    }
+                ]
+            },
+            {
+                "start": 786.258,
+                "end": 786.418,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 786.258,
+                        "end": 786.418,
+                        "score": 0.241
+                    }
+                ]
+            },
+            {
+                "start": 819.464,
+                "end": 819.504,
+                "text": " No!",
+                "words": [
+                    {
+                        "word": "No!",
+                        "start": 819.464,
+                        "end": 819.504,
+                        "score": 0.046
+                    }
+                ]
+            },
+            {
+                "start": 879.59,
+                "end": 879.85,
+                "text": " Musica Musica",
+                "words": [
+                    {
+                        "word": "Musica",
+                        "start": 879.59,
+                        "end": 879.71,
+                        "score": 0.037
+                    },
+                    {
+                        "word": "Musica",
+                        "start": 879.73,
+                        "end": 879.85,
+                        "score": 0.034
+                    }
+                ]
+            },
+            {
+                "start": 918.448,
+                "end": 918.908,
+                "text": " no no",
+                "words": [
+                    {
+                        "word": "no",
+                        "start": 918.448,
+                        "end": 918.788,
+                        "score": 0.684
+                    },
+                    {
+                        "word": "no",
+                        "start": 918.808,
+                        "end": 918.908,
+                        "score": 0.365
+                    }
+                ]
+            },
+            {
+                "start": 969.888,
+                "end": 969.948,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 969.888,
+                        "end": 969.948,
+                        "score": 0.042
+                    }
+                ]
+            },
+            {
+                "start": 1005.19,
+                "end": 1005.251,
+                "text": " Ehi!",
+                "words": [
+                    {
+                        "word": "Ehi!",
+                        "start": 1005.19,
+                        "end": 1005.251,
+                        "score": 0.065
+                    }
+                ]
+            },
+            {
+                "start": 1047.648,
+                "end": 1047.949,
+                "text": " Ahahahah!",
+                "words": [
+                    {
+                        "word": "Ahahahah!",
+                        "start": 1047.648,
+                        "end": 1047.949,
+                        "score": 0.236
+                    }
+                ]
+            },
+            {
+                "start": 1047.969,
+                "end": 1048.35,
+                "text": "Ahahahah!",
+                "words": [
+                    {
+                        "word": "Ahahahah!",
+                        "start": 1047.969,
+                        "end": 1048.35,
+                        "score": 0.305
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "No!",
+                "start": 10.037,
+                "end": 10.097,
+                "score": 0.3
+            },
+            {
+                "word": "lì",
+                "start": 42.455,
+                "end": 42.495,
+                "score": 0.01
+            },
+            {
+                "word": "Ah!",
+                "start": 148.885,
+                "end": 148.925,
+                "score": 0.028
+            },
+            {
+                "word": "Ah!",
+                "start": 148.945,
+                "end": 148.985,
+                "score": 0.03
+            },
+            {
+                "word": "Ah!",
+                "start": 149.005,
+                "end": 149.045,
+                "score": 0.034
+            },
+            {
+                "word": "Anna!",
+                "start": 211.357,
+                "end": 211.437,
+                "score": 0.017
+            },
+            {
+                "word": "Oh,",
+                "start": 248.408,
+                "end": 248.729,
+                "score": 0.817
+            },
+            {
+                "word": "oh,",
+                "start": 248.829,
+                "end": 249.109,
+                "score": 0.676
+            },
+            {
+                "word": "oh!",
+                "start": 249.149,
+                "end": 249.229,
+                "score": 0.324
+            },
+            {
+                "word": "No!",
+                "start": 304.102,
+                "end": 304.142,
+                "score": 0.098
+            },
+            {
+                "word": "Mamma!",
+                "start": 334.698,
+                "end": 335.119,
+                "score": 0.488
+            },
+            {
+                "word": "Ehi!",
+                "start": 368.767,
+                "end": 368.827,
+                "score": 0.055
+            },
+            {
+                "word": "Buongiorno!",
+                "start": 402.479,
+                "end": 402.88,
+                "score": 0.271
+            },
+            {
+                "word": "Ehi!",
+                "start": 502.872,
+                "end": 502.932,
+                "score": 0.024
+            },
+            {
+                "word": "Ehi!",
+                "start": 595.33,
+                "end": 595.39,
+                "score": 0.023
+            },
+            {
+                "word": "Ah,",
+                "start": 632.033,
+                "end": 632.293,
+                "score": 0.344
+            },
+            {
+                "word": "ah,",
+                "start": 632.353,
+                "end": 632.733,
+                "score": 0.711
+            },
+            {
+                "word": "ah!",
+                "start": 632.753,
+                "end": 632.813,
+                "score": 0.197
+            },
+            {
+                "word": "Oh,",
+                "start": 667.32,
+                "end": 667.38,
+                "score": 0.201
+            },
+            {
+                "word": "oh,",
+                "start": 667.4,
+                "end": 667.54,
+                "score": 0.503
+            },
+            {
+                "word": "oh!",
+                "start": 667.56,
+                "end": 667.64,
+                "score": 0.224
+            },
+            {
+                "word": "Ehi!",
+                "start": 708.884,
+                "end": 709.024,
+                "score": 0.236
+            },
+            {
+                "word": "no",
+                "start": 748.626,
+                "end": 748.666,
+                "score": 0.03
+            },
+            {
+                "word": "no",
+                "start": 748.686,
+                "end": 748.766,
+                "score": 0.294
+            },
+            {
+                "word": "Ehi!",
+                "start": 786.258,
+                "end": 786.418,
+                "score": 0.241
+            },
+            {
+                "word": "No!",
+                "start": 819.464,
+                "end": 819.504,
+                "score": 0.046
+            },
+            {
+                "word": "Musica",
+                "start": 879.59,
+                "end": 879.71,
+                "score": 0.037
+            },
+            {
+                "word": "Musica",
+                "start": 879.73,
+                "end": 879.85,
+                "score": 0.034
+            },
+            {
+                "word": "no",
+                "start": 918.448,
+                "end": 918.788,
+                "score": 0.684
+            },
+            {
+                "word": "no",
+                "start": 918.808,
+                "end": 918.908,
+                "score": 0.365
+            },
+            {
+                "word": "Ehi!",
+                "start": 969.888,
+                "end": 969.948,
+                "score": 0.042
+            },
+            {
+                "word": "Ehi!",
+                "start": 1005.19,
+                "end": 1005.251,
+                "score": 0.065
+            },
+            {
+                "word": "Ahahahah!",
+                "start": 1047.648,
+                "end": 1047.949,
+                "score": 0.236
+            },
+            {
+                "word": "Ahahahah!",
+                "start": 1047.969,
+                "end": 1048.35,
+                "score": 0.305
+            }
+        ]
+    }
+}

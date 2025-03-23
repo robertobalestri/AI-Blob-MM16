@@ -1,0 +1,196 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " in un luogo dove le persone vivono",
+                "start": 10.207,
+                "end": 12.434,
+                "clean_char": [
+                    "i",
+                    "n",
+                    "|",
+                    "u",
+                    "n",
+                    "|",
+                    "l",
+                    "u",
+                    "o",
+                    "g",
+                    "o",
+                    "|",
+                    "d",
+                    "o",
+                    "v",
+                    "e",
+                    "|",
+                    "l",
+                    "e",
+                    "|",
+                    "p",
+                    "e",
+                    "r",
+                    "s",
+                    "o",
+                    "n",
+                    "e",
+                    "|",
+                    "v",
+                    "i",
+                    "v",
+                    "o",
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        35
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 10.468,
+                "end": 12.233,
+                "text": " in un luogo dove le persone vivono",
+                "words": [
+                    {
+                        "word": "in",
+                        "start": 10.468,
+                        "end": 10.508,
+                        "score": 0.093
+                    },
+                    {
+                        "word": "un",
+                        "start": 10.588,
+                        "end": 10.628,
+                        "score": 0.022
+                    },
+                    {
+                        "word": "luogo",
+                        "start": 10.668,
+                        "end": 10.829,
+                        "score": 0.276
+                    },
+                    {
+                        "word": "dove",
+                        "start": 10.849,
+                        "end": 11.23,
+                        "score": 0.634
+                    },
+                    {
+                        "word": "le",
+                        "start": 11.27,
+                        "end": 11.331,
+                        "score": 0.262
+                    },
+                    {
+                        "word": "persone",
+                        "start": 11.471,
+                        "end": 11.752,
+                        "score": 0.414
+                    },
+                    {
+                        "word": "vivono",
+                        "start": 11.812,
+                        "end": 12.233,
+                        "score": 0.629
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "in",
+                "start": 10.468,
+                "end": 10.508,
+                "score": 0.093
+            },
+            {
+                "word": "un",
+                "start": 10.588,
+                "end": 10.628,
+                "score": 0.022
+            },
+            {
+                "word": "luogo",
+                "start": 10.668,
+                "end": 10.829,
+                "score": 0.276
+            },
+            {
+                "word": "dove",
+                "start": 10.849,
+                "end": 11.23,
+                "score": 0.634
+            },
+            {
+                "word": "le",
+                "start": 11.27,
+                "end": 11.331,
+                "score": 0.262
+            },
+            {
+                "word": "persone",
+                "start": 11.471,
+                "end": 11.752,
+                "score": 0.414
+            },
+            {
+                "word": "vivono",
+                "start": 11.812,
+                "end": 12.233,
+                "score": 0.629
+            }
+        ]
+    }
+}

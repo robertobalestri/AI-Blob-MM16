@@ -1,0 +1,296 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " Musica Musica",
+                "start": 0.031,
+                "end": 28.33,
+                "clean_char": [
+                    "m",
+                    "u",
+                    "s",
+                    "i",
+                    "c",
+                    "a",
+                    "|",
+                    "m",
+                    "u",
+                    "s",
+                    "i",
+                    "c",
+                    "a"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        14
+                    ]
+                ]
+            },
+            {
+                "text": " Grazie.",
+                "start": 29.36,
+                "end": 49.66,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": " Musica",
+                "start": 62.84,
+                "end": 92.354,
+                "clean_char": [
+                    "m",
+                    "u",
+                    "s",
+                    "i",
+                    "c",
+                    "a"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        7
+                    ]
+                ]
+            },
+            {
+                "text": " no no",
+                "start": 93.248,
+                "end": 120.822,
+                "clean_char": [
+                    "n",
+                    "o",
+                    "|",
+                    "n",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "clean_wdx": [
+                    1,
+                    2
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        6
+                    ]
+                ]
+            },
+            {
+                "text": " Grazie",
+                "start": 133.057,
+                "end": 138.271,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        7
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 0.031,
+                "end": 0.311,
+                "text": " Musica Musica",
+                "words": [
+                    {
+                        "word": "Musica",
+                        "start": 0.031,
+                        "end": 0.151,
+                        "score": 0.035
+                    },
+                    {
+                        "word": "Musica",
+                        "start": 0.171,
+                        "end": 0.311,
+                        "score": 0.103
+                    }
+                ]
+            },
+            {
+                "start": 29.4,
+                "end": 29.64,
+                "text": " Grazie.",
+                "words": [
+                    {
+                        "word": "Grazie.",
+                        "start": 29.4,
+                        "end": 29.64,
+                        "score": 0.164
+                    }
+                ]
+            },
+            {
+                "start": 62.84,
+                "end": 63.14,
+                "text": " Musica",
+                "words": [
+                    {
+                        "word": "Musica",
+                        "start": 62.84,
+                        "end": 63.14,
+                        "score": 0.36
+                    }
+                ]
+            },
+            {
+                "start": 93.248,
+                "end": 93.348,
+                "text": " no no",
+                "words": [
+                    {
+                        "word": "no",
+                        "start": 93.248,
+                        "end": 93.288,
+                        "score": 0.063
+                    },
+                    {
+                        "word": "no",
+                        "start": 93.308,
+                        "end": 93.348,
+                        "score": 0.052
+                    }
+                ]
+            },
+            {
+                "start": 133.057,
+                "end": 133.177,
+                "text": " Grazie",
+                "words": [
+                    {
+                        "word": "Grazie",
+                        "start": 133.057,
+                        "end": 133.177,
+                        "score": 0.021
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "Musica",
+                "start": 0.031,
+                "end": 0.151,
+                "score": 0.035
+            },
+            {
+                "word": "Musica",
+                "start": 0.171,
+                "end": 0.311,
+                "score": 0.103
+            },
+            {
+                "word": "Grazie.",
+                "start": 29.4,
+                "end": 29.64,
+                "score": 0.164
+            },
+            {
+                "word": "Musica",
+                "start": 62.84,
+                "end": 63.14,
+                "score": 0.36
+            },
+            {
+                "word": "no",
+                "start": 93.248,
+                "end": 93.288,
+                "score": 0.063
+            },
+            {
+                "word": "no",
+                "start": 93.308,
+                "end": 93.348,
+                "score": 0.052
+            },
+            {
+                "word": "Grazie",
+                "start": 133.057,
+                "end": 133.177,
+                "score": 0.021
+            }
+        ]
+    }
+}

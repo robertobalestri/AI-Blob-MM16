@@ -1,0 +1,153 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " Grazie a tutti.",
+                "start": 12.738,
+                "end": 39.923,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e",
+                    "|",
+                    "a",
+                    "|",
+                    "t",
+                    "u",
+                    "t",
+                    "t",
+                    "i"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ],
+                "clean_wdx": [
+                    1,
+                    2,
+                    3
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        16
+                    ]
+                ]
+            },
+            {
+                "text": " Grazie.",
+                "start": 69.775,
+                "end": 72.661,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        8
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 12.878,
+                "end": 13.198,
+                "text": " Grazie a tutti.",
+                "words": [
+                    {
+                        "word": "Grazie",
+                        "start": 12.878,
+                        "end": 13.038,
+                        "score": 0.194
+                    },
+                    {
+                        "word": "a",
+                        "start": 13.058,
+                        "end": 13.078,
+                        "score": 0.0
+                    },
+                    {
+                        "word": "tutti.",
+                        "start": 13.098,
+                        "end": 13.198,
+                        "score": 0.205
+                    }
+                ]
+            },
+            {
+                "start": 69.775,
+                "end": 69.895,
+                "text": " Grazie.",
+                "words": [
+                    {
+                        "word": "Grazie.",
+                        "start": 69.775,
+                        "end": 69.895,
+                        "score": 0.025
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "Grazie",
+                "start": 12.878,
+                "end": 13.038,
+                "score": 0.194
+            },
+            {
+                "word": "a",
+                "start": 13.058,
+                "end": 13.078,
+                "score": 0.0
+            },
+            {
+                "word": "tutti.",
+                "start": 13.098,
+                "end": 13.198,
+                "score": 0.205
+            },
+            {
+                "word": "Grazie.",
+                "start": 69.775,
+                "end": 69.895,
+                "score": 0.025
+            }
+        ]
+    }
+}

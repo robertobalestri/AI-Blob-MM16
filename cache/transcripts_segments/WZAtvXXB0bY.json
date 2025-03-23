@@ -1,0 +1,58 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " Ciao!",
+                "start": 0.031,
+                "end": 6.072,
+                "clean_char": [
+                    "c",
+                    "i",
+                    "a",
+                    "o"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        6
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 0.031,
+                "end": 0.111,
+                "text": " Ciao!",
+                "words": [
+                    {
+                        "word": "Ciao!",
+                        "start": 0.031,
+                        "end": 0.111,
+                        "score": 0.053
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "Ciao!",
+                "start": 0.031,
+                "end": 0.111,
+                "score": 0.053
+            }
+        ]
+    }
+}

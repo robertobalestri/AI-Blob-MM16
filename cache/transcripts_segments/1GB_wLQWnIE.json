@@ -1,0 +1,136 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " Sì.",
+                "start": 26.137,
+                "end": 49.475,
+                "clean_char": [
+                    "s",
+                    "ì"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " Sì.",
+                "start": 58.688,
+                "end": 73.994,
+                "clean_char": [
+                    "s",
+                    "ì"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": " Sì.",
+                "start": 81.217,
+                "end": 88.777,
+                "clean_char": [
+                    "s",
+                    "ì"
+                ],
+                "clean_cdx": [
+                    1,
+                    2
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        4
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 26.137,
+                "end": 26.177,
+                "text": " Sì.",
+                "words": [
+                    {
+                        "word": "Sì.",
+                        "start": 26.137,
+                        "end": 26.177,
+                        "score": 0.186
+                    }
+                ]
+            },
+            {
+                "start": 58.688,
+                "end": 58.728,
+                "text": " Sì.",
+                "words": [
+                    {
+                        "word": "Sì.",
+                        "start": 58.688,
+                        "end": 58.728,
+                        "score": 0.024
+                    }
+                ]
+            },
+            {
+                "start": 81.217,
+                "end": 81.257,
+                "text": " Sì.",
+                "words": [
+                    {
+                        "word": "Sì.",
+                        "start": 81.217,
+                        "end": 81.257,
+                        "score": 0.046
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "Sì.",
+                "start": 26.137,
+                "end": 26.177,
+                "score": 0.186
+            },
+            {
+                "word": "Sì.",
+                "start": 58.688,
+                "end": 58.728,
+                "score": 0.024
+            },
+            {
+                "word": "Sì.",
+                "start": 81.217,
+                "end": 81.257,
+                "score": 0.046
+            }
+        ]
+    }
+}

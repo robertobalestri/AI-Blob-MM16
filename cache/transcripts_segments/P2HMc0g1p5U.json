@@ -1,0 +1,62 @@
+{
+    "transcription": {
+        "segments": [
+            {
+                "text": " grazie",
+                "start": 27.47,
+                "end": 40.565,
+                "clean_char": [
+                    "g",
+                    "r",
+                    "a",
+                    "z",
+                    "i",
+                    "e"
+                ],
+                "clean_cdx": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "clean_wdx": [
+                    1
+                ],
+                "sentence_spans": [
+                    [
+                        0,
+                        7
+                    ]
+                ]
+            }
+        ],
+        "language": "it"
+    },
+    "alignment": {
+        "segments": [
+            {
+                "start": 27.47,
+                "end": 27.991,
+                "text": " grazie",
+                "words": [
+                    {
+                        "word": "grazie",
+                        "start": 27.47,
+                        "end": 27.991,
+                        "score": 0.354
+                    }
+                ]
+            }
+        ],
+        "word_segments": [
+            {
+                "word": "grazie",
+                "start": 27.47,
+                "end": 27.991,
+                "score": 0.354
+            }
+        ]
+    }
+}

@@ -92,7 +92,6 @@ def get_phrases_for_topic(topic):
             f"CONTRADDIZIONI, PARADOSSI o SITUAZIONI ASSURDE. Queste frasi serviranno per trovare contenuti reali "
             f"nel database che possano sembrare ironici quando decontestualizzati.\n"
             f"Crea frasi che, se pronunciate seriamente ma inserite in un contesto diverso, risulterebbero comiche o assurde. "
-            f"Evita riferimenti espliciti a specifici brand, persone reali o eventi troppo specifici. "
             f"La risposta deve essere un JSON valido con questa struttura:\n"
             f'{{"phrases": ["frase1", "frase2", "frase3", ...]}}'
         )
@@ -229,7 +228,7 @@ def score_irony(all_phrases_with_context, theme, batch_size=50):
         prompt_batch = json.dumps(batch, ensure_ascii=False)
 
         prompt = (
-            f"Stai valutando una serie di frasi reali da usare in un video ironico sul tema '{theme}'.\n"
+            f"Stai valutando una serie di frasi reali da usare in un video ironico sul tema '{theme}'. Considera l'ironia anche in base al fatto che la frase, se pronunciata seriamente ma inserita in un contesto diverso (quello del tema '{theme}'), risulterebbe comica o assurda.\n"
             f"Per ogni frase, assegna un punteggio 'irony_score' da 1 a 10, e una brevissima spiegazione del perché.\n\n"
             f"Restituisci un JSON valido del tipo:\n"
             f'{{"irony_scored_phrases": ['

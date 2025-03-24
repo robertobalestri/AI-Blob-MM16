@@ -4,7 +4,7 @@ import os
 import math
 from langchain_chroma import Chroma
 from src.ai_models import AIModelsService, LLMType
-from src.config.settings import VECTOR_STORE_DIR, VECTOR_STORE_SETTINGS, LOG_LEVEL, THEME, SEED
+from src.config.settings import VECTOR_STORE_DIR, VECTOR_STORE_SETTINGS, LOG_LEVEL, THEME, SEED, TOP_IRONY_LIMIT, TOP_RELEVANCE_LIMIT
 
 # Impostazione del logger
 logger = logging.getLogger(__name__)
@@ -14,8 +14,7 @@ logging.getLogger("azure.core.pipeline.policies.http_logging_policy").setLevel(l
 # COSTANTI
 IRONY_LEVEL = 6  # Su una scala da 1 a 10, dove 10 è il massimo dell'ironia
 RELEVANCE_LEVEL = 5
-TOP_IRONY_LIMIT = 30
-TOP_RELEVANCE_LIMIT = 30
+
 
 
 

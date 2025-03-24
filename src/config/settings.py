@@ -118,3 +118,5 @@ GPU_CLEANUP_AGGRESSIVE: bool = os.getenv("GPU_CLEANUP_AGGRESSIVE", "false").lowe
 
 THEME =  os.getenv("THEME")
 SEED = os.getenv("SEED")
+TOP_IRONY_LIMIT = os.getenv("TOP_IRONY_LIMIT")
+TOP_RELEVANCE_LIMIT = os.getenv("TOP_RELEVANCE_LIMIT")

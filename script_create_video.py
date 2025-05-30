@@ -40,7 +40,7 @@ def sanitize_filename(name: str) -> str:
 # ----------------------------------------------------------------------
 # COSTANTI DI PATH (adatta come preferisci)
 # ----------------------------------------------------------------------
-OUTPUT_DIR = f"output/{sanitize_filename(THEME)}_{SEED}"
+OUTPUT_DIR = f"output/{sanitize_filename(THEME)}_{SEED}_iterative"
 ORDERED_FILE = os.path.join(OUTPUT_DIR, "ordered_sentences.json")
 CLIPS_DIR = os.path.join(OUTPUT_DIR, "clips")
 FINAL_OUTPUT = os.path.join(OUTPUT_DIR, "final_montage.mp4")
@@ -68,6 +68,11 @@ class VideoAssembler:
     """Class to handle downloading and assembling video clips."""
     
     def __init__(self, downloader: DownloaderService):
+        # Validate font exists at startup
+        font_path = Path(FONT_FILE).resolve()
+        if not font_path.exists():
+            raise FileNotFoundError(f"Required font file missing: {font_path}")
+            
         for f in Path(CLIPS_DIR).glob("*"):
             f.unlink()
             logger.info(f"Cleared clips at: {str(CLIPS_DIR)}")
@@ -265,10 +270,8 @@ class VideoAssembler:
             logger.error(f"Error downloading clip {order}: {e}")
     
     async def process_clip(self, metadata: Dict, output_path: str) -> bool:
-        """
-        Usa direttamente i file precut esistenti invece di scaricare nuovamente i clip.
-        """
         try:
+            # First get raw precut file
             temp_cut_path = await self.downloader.get_or_create_precut(
                 url=metadata['source'],
                 start_time=metadata.get("start_time", 0),
@@ -282,19 +285,35 @@ class VideoAssembler:
                 
             logger.info(f"Using existing precut file: {temp_cut_path}")
             
-            # Copia direttamente il file precut nella directory di output
-            # Aggiungi fade audio
-            fade_output_path = output_path.replace(".mp4", "_fade.mp4")
+            # Create intermediate file for processing
+            intermediate_path = output_path.replace(".mp4", "_processed.mp4")
             
-            # Copia il file con ffmpeg per assicurarsi che sia compatibile
-            input_stream = ffmpeg.input(temp_cut_path)
+            # First pass: copy raw video
+            raw_stream = ffmpeg.input(temp_cut_path)
+            raw_output = ffmpeg.output(
+                raw_stream.video,
+                raw_stream.audio,
+                intermediate_path,
+                vcodec='copy',
+                acodec='copy',
+                **{'y': None, 'loglevel': 'error'}
+            )
+            await self._run_ffmpeg(raw_output)
+
+            # Create subtitle file (SRT format)
+            subtitle_path = output_path.replace(".mp4", ".srt")
+            with open(subtitle_path, 'w', encoding='utf-8') as f:
+                f.write(f"1\n00:00:00,000 --> 00:59:59,999\n{metadata['search_text']}")
             
-            # Mantieni lo stesso formato video ma assicurati che sia 720p e 30fps
+            # Second pass: add subtitles using the SRT file
+            input_stream = ffmpeg.input(intermediate_path)
+            
             v_stream = (
                 input_stream.video
                 .filter('setpts', 'PTS-STARTPTS')
                 .filter('scale', 1280, 720)
                 .filter('fps', fps=30)
+                .filter('subtitles', subtitle_path)
             )
 
             a_stream = (
@@ -303,7 +322,7 @@ class VideoAssembler:
                 .filter('aresample', **{'async': '1', 'first_pts': '0'})
             )
             
-            # Output con parametri di codifica
+            # Output with processing
             stream = ffmpeg.output(
                 v_stream,
                 a_stream,
@@ -316,12 +335,19 @@ class VideoAssembler:
                 movflags='+faststart',
                 fflags='+genpts',
                 avoid_negative_ts='make_zero',
-                **{'y': None, 'loglevel': 'error'}  # Add this
+                **{'y': None, 'loglevel': 'error'}
             )
             
             await self._run_ffmpeg(stream)
             
-            # Aggiungi fade audio
+            # Cleanup intermediate files
+            if os.path.exists(intermediate_path):
+                os.remove(intermediate_path)
+            if os.path.exists(subtitle_path):
+                os.remove(subtitle_path)
+            
+            # Add audio fade
+            fade_output_path = output_path.replace(".mp4", "_fade.mp4")
             fade_success = await self._add_audio_fade(output_path, fade_output_path)
             if fade_success:
                 os.replace(fade_output_path, output_path)
@@ -483,7 +509,7 @@ class VideoAssembler:
                 y=start_y + theme_fontsize + 20
             )
             v_stream = v_stream.drawtext(
-                text='Semantic Cataloging for the Retrieval and Recontextualization of Italian Television Archives',
+                text='LLM-Driven Recontextualization of Italian Television Archives',
                 fontfile=FONT_FILE,
                 fontcolor='white',
                 fontsize=detail_fontsize,
@@ -580,6 +606,7 @@ class VideoAssembler:
                     f.write(f"file '{os.path.abspath(title_screen_path)}'\n")
                 for path in valid_clip_paths:
                     f.write(f"file '{os.path.abspath(path)}'\n")
+
 
             logger.info(f"Created concat file with {len(valid_clip_paths) + (1 if intro_processed else 0)} entries")
 

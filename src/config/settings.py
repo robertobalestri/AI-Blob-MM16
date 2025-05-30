@@ -14,8 +14,8 @@ BASE_DIR = Path(__file__).parent.parent.parent
 CACHE_DIR = BASE_DIR / "cache"
 AUDIO_DIR = CACHE_DIR / "audio"
 VECTOR_STORE_DIR = BASE_DIR / "data" / "vector_store"
-FONT_FILE = BASE_DIR / "src" / "config" / "fonts" / "Times New Roman.ttf"
-
+FONT_FILE = BASE_DIR / "src" / "config" / "fonts" / "Times_New_Roman.ttf"
+DATA_DIR = BASE_DIR / "data"
 # Ensure directories exist
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
@@ -118,5 +118,8 @@ GPU_CLEANUP_AGGRESSIVE: bool = os.getenv("GPU_CLEANUP_AGGRESSIVE", "false").lowe
 
 THEME =  os.getenv("THEME")
 SEED = os.getenv("SEED")
-TOP_IRONY_LIMIT = int(os.getenv("TOP_IRONY_LIMIT"))
-TOP_RELEVANCE_LIMIT = int(os.getenv("TOP_RELEVANCE_LIMIT"))
+
+ITERATION_COUNT = 20
+PHRASES_PER_ITERATION = 3
+CLIPS_PER_PHRASE_RETRIEVAL = 10
+MIN_SIMILARITY_THRESHOLD = 0.5

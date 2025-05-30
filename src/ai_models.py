@@ -2,15 +2,15 @@
 import logging
 import json
 import re
+import os
+import base64
 from enum import Enum
 from typing import List, Dict, Optional
-from langchain_openai import AzureChatOpenAI
-from langchain_cohere import CohereEmbeddings
-from langchain_openai import AzureOpenAIEmbeddings
 from dataclasses import dataclass
+from openai import AzureOpenAI
+from langchain_cohere import CohereEmbeddings
 from langchain_azure_ai.embeddings import AzureAIEmbeddingsModel
 from azure.ai.inference import EmbeddingsClient
-
 from azure.core.credentials import AzureKeyCredential
 
 from src.config.settings import AZURE_OPENAI_SETTINGS, VECTOR_STORE_SETTINGS
@@ -31,34 +31,19 @@ class AIModelsService:
         self._cheap_llm = None
         self._embedding_model = None
     
-    def _initialize_llm(self, intelligent_or_cheap: LLMType) -> AzureChatOpenAI:
-        """Initialize and return an instance of AzureChatOpenAI LLM."""
+    def _initialize_llm(self, intelligent_or_cheap: LLMType) -> AzureOpenAI:
+        """Initialize and return an instance of AzureOpenAI client."""
         try:
-            if intelligent_or_cheap == LLMType.INTELLIGENT:
-                return AzureChatOpenAI(
-                    deployment_name=AZURE_OPENAI_SETTINGS["intelligent_deployment"],
-                    model=AZURE_OPENAI_SETTINGS["intelligent_model"],
-                    api_key=AZURE_OPENAI_SETTINGS["api_key"],
-                    azure_endpoint=AZURE_OPENAI_SETTINGS["api_endpoint"],
-                    api_version=AZURE_OPENAI_SETTINGS["api_version"],
-                    temperature=1,
-                )
-            elif intelligent_or_cheap == LLMType.CHEAP:
-                return AzureChatOpenAI(
-                    deployment_name=AZURE_OPENAI_SETTINGS["cheap_deployment"],
-                    model=AZURE_OPENAI_SETTINGS["cheap_model"],
-                    api_key=AZURE_OPENAI_SETTINGS["api_key"],
-                    azure_endpoint=AZURE_OPENAI_SETTINGS["api_endpoint"],
-                    api_version=AZURE_OPENAI_SETTINGS["api_version"],
-                    temperature=0.9,
-                )
-            else:
-                raise ValueError(f"Invalid LLM type: {intelligent_or_cheap}")
+            return AzureOpenAI(
+                azure_endpoint=AZURE_OPENAI_SETTINGS["api_endpoint"],
+                api_key=AZURE_OPENAI_SETTINGS["api_key"],
+                api_version=AZURE_OPENAI_SETTINGS["api_version"],
+            )
         except Exception as e:
             logger.error(f"Failed to initialize LLM: {e}")
             raise
     
-    def get_llm(self, intelligent_or_cheap: LLMType) -> AzureChatOpenAI:
+    def get_llm(self, intelligent_or_cheap: LLMType) -> AzureOpenAI:
         """Get the initialized LLM instance. If not initialized, initialize it first."""
         if intelligent_or_cheap == LLMType.INTELLIGENT:
             if self._intelligent_llm is None:
@@ -70,43 +55,19 @@ class AIModelsService:
             return self._cheap_llm
         else:
             raise ValueError(f"Invalid LLM type: {intelligent_or_cheap}")
-
-    
     
     def get_embedding_model(self):
-        
         """Get the embedding model instance."""
         if self._embedding_model is None:
             try:
-
-                # For Serverless API or Managed Compute endpoints
-
-                self._embedding_model = EmbeddingsClient(
-
-                    endpoint= VECTOR_STORE_SETTINGS["cohere_api_endpoint"],
-
-                    credential=AzureKeyCredential(VECTOR_STORE_SETTINGS["cohere_api_key"]),
-                    
-                    model= VECTOR_STORE_SETTINGS["cohere_api_embedding_model"]
-
-                )
-                
-                self._embedding_model = CohereEmbeddings(
-                    model=VECTOR_STORE_SETTINGS["cohere_api_embedding_model"],
-                    cohere_api_key=VECTOR_STORE_SETTINGS["cohere_api_key"],
-                    base_url="https://rober-m87k7tom-eastus2.services.ai.azure.com/"
-                )
-                
                 self._embedding_model = AzureAIEmbeddingsModel(
                     model_name=VECTOR_STORE_SETTINGS["cohere_api_embedding_model"],
                     credential=VECTOR_STORE_SETTINGS["cohere_api_key"],
-                    endpoint= VECTOR_STORE_SETTINGS["cohere_api_endpoint"]
+                    endpoint=VECTOR_STORE_SETTINGS["cohere_api_endpoint"]
                 )
-                
-                
-                logger.info("Successfully initialized Cohere embeddings model")
+                logger.info("Successfully initialized embeddings model")
             except Exception as e:
-                logger.error(f"Failed to initialize Cohere embeddings model: {e}")
+                logger.error(f"Failed to initialize embeddings model: {e}")
                 raise
         return self._embedding_model
     
@@ -123,9 +84,27 @@ class AIModelsService:
         """
         try:
             logger.debug(f"Calling LLM ({llm_type.value}) with prompt:\n{prompt}")
-            llm = self.get_llm(llm_type)
-            response = llm.invoke(prompt)
-            content = response.content.strip()
+            client = self.get_llm(llm_type)
+            
+            # Create messages format
+            messages = [{"role": "user", "content": prompt}]
+            
+            # Select deployment based on LLM type
+            deployment = (
+                AZURE_OPENAI_SETTINGS["intelligent_deployment"] 
+                if llm_type == LLMType.INTELLIGENT 
+                else AZURE_OPENAI_SETTINGS["cheap_deployment"]
+            )
+            
+            # Call the OpenAI API
+            completion = client.chat.completions.create(
+                model=deployment,
+                messages=messages,
+                temperature=1.0
+            )
+            
+            # Extract content from response
+            content = completion.choices[0].message.content.strip()
             
             # Log the raw response for debugging
             logger.debug(f"Raw LLM response:\n{content}")
@@ -141,7 +120,7 @@ class AIModelsService:
         except Exception as e:
             logger.error(f"Error calling LLM: {e}")
             raise
-  
+
 def test_emb_model():
     """Test the embedding model."""
     ai_models = AIModelsService()
@@ -151,5 +130,23 @@ def test_emb_model():
     hello_world_emb = emb_model.embed_documents(["Hello, world!"])
     print(hello_world_emb)
 
+def test_llm():
+    """Test the LLM call functionality."""
+    ai_models = AIModelsService()
+    
+    # Test with a simple prompt
+    prompt = "Hello, can you tell me what day it is today?"
+    
+    # Test both LLM types
+    print("Testing INTELLIGENT LLM:")
+    response_intelligent = ai_models.call_llm(prompt, LLMType.INTELLIGENT)
+    print(f"Response: {response_intelligent}\n")
+    
+    print("Testing CHEAP LLM:")
+    response_cheap = ai_models.call_llm(prompt, LLMType.CHEAP)
+    print(f"Response: {response_cheap}")
+
 if __name__ == "__main__":
-    test_emb_model()
+    # Uncomment the test you want to run
+    # test_emb_model()
+    test_llm()

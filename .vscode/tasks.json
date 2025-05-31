@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Interactive GUI",
+			"type": "shell",
+			"command": "streamlit run src/gui/streamlit_app.py",
+			"isBackground": true,
+			"group": "build",
+			"problemMatcher": []
+		}
+	]
+}

@@ -100,7 +100,7 @@ class AIModelsService:
             completion = client.chat.completions.create(
                 model=deployment,
                 messages=messages,
-                temperature=1.0
+                temperature=1.4
             )
             
             # Extract content from response

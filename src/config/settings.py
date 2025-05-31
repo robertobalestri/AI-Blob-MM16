@@ -6,8 +6,9 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
+# Note: override=False means existing environment variables take precedence over .env file
 env_path = Path(__file__).parent.parent.parent / '.env'
-load_dotenv(env_path, override=True)
+load_dotenv(env_path, override=False)
 
 # Base Paths
 BASE_DIR = Path(__file__).parent.parent.parent
@@ -113,11 +114,6 @@ for setting_dict in [VIDEO_SETTINGS]:
 
 # New GPU settings
 GPU_CLEANUP_AGGRESSIVE: bool = os.getenv("GPU_CLEANUP_AGGRESSIVE", "false").lower() in ("1", "true", "yes") 
-
-
-
-THEME =  os.getenv("THEME")
-SEED = os.getenv("SEED")
 
 ITERATION_COUNT = 20
 PHRASES_PER_ITERATION = 3

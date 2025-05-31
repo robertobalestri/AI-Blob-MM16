@@ -6,12 +6,13 @@ import re
 import torch
 import ffmpeg
 import time
+import argparse
 from pathlib import Path
 from typing import List, Dict, Optional, Tuple
 from src.ai_models import AIModelsService, LLMType
 
 # ▼▼▼ Moduli del tuo progetto ▼▼▼
-from src.config.settings import THEME, SEED, AUDIO_DIR, MODEL_SETTINGS, VIDEO_SETTINGS, FONT_FILE
+from src.config.settings import AUDIO_DIR, MODEL_SETTINGS, VIDEO_SETTINGS, FONT_FILE
 from src.downloader_service import DownloaderService
 
 logging.basicConfig(
@@ -38,21 +39,31 @@ def sanitize_filename(name: str) -> str:
     return re.sub(r'[^\w\-.]', '_', name)
 
 # ----------------------------------------------------------------------
+# COMMAND LINE ARGUMENTS
+# ----------------------------------------------------------------------
+def parse_arguments():
+    """Parse command line arguments for theme and seed."""
+    parser = argparse.ArgumentParser(description='Create video montage from selected clips')
+    parser.add_argument('--theme', required=True, help='Theme/title of the video episode')
+    parser.add_argument('--seed', required=True, help='Seed for the episode generation')
+    return parser.parse_args()
+
+# ----------------------------------------------------------------------
 # COSTANTI DI PATH (adatta come preferisci)
 # ----------------------------------------------------------------------
-OUTPUT_DIR = f"output/{sanitize_filename(THEME)}_{SEED}_iterative"
-ORDERED_FILE = os.path.join(OUTPUT_DIR, "ordered_sentences.json")
-CLIPS_DIR = os.path.join(OUTPUT_DIR, "clips")
-FINAL_OUTPUT = os.path.join(OUTPUT_DIR, "final_montage.mp4")
+def setup_paths(theme: str, seed: str):
+    """Setup output directories based on theme and seed."""
+    output_dir = f"output/{sanitize_filename(theme)}_{seed}_iterative"
+    ordered_file = os.path.join(output_dir, "ordered_sentences.json")
+    clips_dir = os.path.join(output_dir, "clips")
+    final_output = os.path.join(output_dir, "final_montage.mp4")
+    title_screen_path = os.path.join(output_dir, "title_screen.mp4")
+    
+    Path(clips_dir).mkdir(parents=True, exist_ok=True)
+    
+    return output_dir, ordered_file, clips_dir, final_output, title_screen_path
 
 DATA_VIDEO_DIR = VIDEO_SETTINGS.get("data_video_dir", None)
-
-Path(CLIPS_DIR).mkdir(parents=True, exist_ok=True)
-
-TITLE_SCREEN_PATH = os.path.join(OUTPUT_DIR, "title_screen.mp4")
-# ----------------------------------------------------------------------
-# MODELLI WHISPERX (CARICAMENTO E FUNZIONE DI TRASCRIZIONE)
-# ----------------------------------------------------------------------
 
 previous_extra_time = 0.15
 later_extra_time = 0.3
@@ -67,15 +78,26 @@ later_extra_time = 0.3
 class VideoAssembler:
     """Class to handle downloading and assembling video clips."""
     
-    def __init__(self, downloader: DownloaderService):
+    def __init__(self, downloader: DownloaderService, output_dir: str, ordered_file: str, clips_dir: str, final_output: str, title_screen_path: str, theme: str, seed: str):
         # Validate font exists at startup
         font_path = Path(FONT_FILE).resolve()
         if not font_path.exists():
             raise FileNotFoundError(f"Required font file missing: {font_path}")
-            
-        for f in Path(CLIPS_DIR).glob("*"):
+        
+        # Store paths and parameters
+        self.output_dir = output_dir
+        self.ordered_file = ordered_file
+        self.clips_dir = clips_dir
+        self.final_output = final_output
+        self.title_screen_path = title_screen_path
+        self.theme = theme
+        self.seed = seed
+        
+        # Clear existing clips
+        for f in Path(clips_dir).glob("*"):
             f.unlink()
-            logger.info(f"Cleared clips at: {str(CLIPS_DIR)}")
+            logger.info(f"Cleared clips at: {str(clips_dir)}")
+        
         self.downloader = downloader
         self.ordered_sentences = []
         self.clip_paths = []
@@ -114,9 +136,7 @@ class VideoAssembler:
                 ]
                 }}
 
-                Dati disponibili:
-
-                {json.dumps({
+                Dati disponibili:                {json.dumps({
                         "previous": previous_words,
                         "current": current_words,
                         "next": next_words
@@ -126,7 +146,7 @@ class VideoAssembler:
     async def load_ordered_sentences(self, mock_call = True) -> None:
         """Load the ordered sentences from JSON file e aggiorna start/end via LLM."""
         try:
-            with open(ORDERED_FILE, 'r', encoding='utf-8') as f:
+            with open(self.ordered_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 self.ordered_sentences = data.get('ordered_phrases', [])
                 logger.info(f"Loaded {len(self.ordered_sentences)} ordered sentences")
@@ -241,7 +261,7 @@ class VideoAssembler:
                 'sentence_number': metadata.get('sentence_number', 0)
             }
             
-            output_path = os.path.join(CLIPS_DIR, f"clip_{order_number:03d}.mp4")
+            output_path = os.path.join(self.clips_dir, f"clip_{order_number:03d}.mp4")
             
             tasks.append(self.download_clip(clip_metadata, output_path, order_number))
         
@@ -476,7 +496,7 @@ class VideoAssembler:
         """Generate a title screen video with specified text elements."""
         try:
             duration = 5  # seconds
-            output_path = TITLE_SCREEN_PATH
+            output_path = self.title_screen_path
 
             # Calculate text positions
             theme_fontsize = 48
@@ -488,12 +508,10 @@ class VideoAssembler:
             input_stream = ffmpeg.input(
                 f"color=black:s=1280x720:d={duration}", 
                 f='lavfi'
-            )
-
-            # Build video stream with chained drawtext filters
+            )            # Build video stream with chained drawtext filters
             v_stream = input_stream.video
             v_stream = v_stream.drawtext(
-                text=THEME,
+                text=self.theme,
                 fontfile=FONT_FILE,
                 fontcolor='white',
                 fontsize=theme_fontsize,
@@ -588,10 +606,8 @@ class VideoAssembler:
                     intro_processed = None
             else:
                 logger.warning("No intro video found")
-                intro_processed = None
-
-            # Create concat list file
-            concat_file = os.path.join(OUTPUT_DIR, "concat_list.txt")
+                intro_processed = None            # Create concat list file
+            concat_file = os.path.join(self.output_dir, "concat_list.txt")
 
             # Handle title screen
             title_screen_path = await self.create_title_screen()
@@ -621,13 +637,11 @@ class VideoAssembler:
                 input_stream.audio
                 .filter('acompressor', level_in=1.0, threshold=0.1, ratio=9, attack=20, release=250)
                 .filter('loudnorm', i=-16, tp=-1.5, lra=11)
-            )
-
-            # Final output stream
+            )            # Final output stream
             stream = ffmpeg.output(
                 v_stream,
                 a_stream,
-                FINAL_OUTPUT,
+                self.final_output,
                 vcodec='libx264',
                 acodec='aac',
                 crf=23,
@@ -641,7 +655,7 @@ class VideoAssembler:
             )
 
             await self._run_ffmpeg(stream)
-            logger.info(f"Final montage created at: {FINAL_OUTPUT}")
+            logger.info(f"Final montage created at: {self.final_output}")
 
         except Exception as e:
             logger.error(f"Error creating final montage: {e}")
@@ -674,19 +688,34 @@ class VideoAssembler:
 # FUNZIONE PRINCIPALE
 # ------------------------------------------------
 async def main():
+    # Parse command line arguments
+    args = parse_arguments()
+    
+    # Setup paths based on theme and seed
+    output_dir, ordered_file, clips_dir, final_output, title_screen_path = setup_paths(args.theme, args.seed)
 
     try:
         downloader = DownloaderService()
         await downloader.clear_cache()  # Add this
-        assembler = VideoAssembler(downloader = downloader)
+        assembler = VideoAssembler(
+            downloader=downloader,
+            output_dir=output_dir,
+            ordered_file=ordered_file,
+            clips_dir=clips_dir,
+            final_output=final_output,
+            title_screen_path=title_screen_path,
+            theme=args.theme,
+            seed=args.seed
+        )
         await assembler.run()
     except Exception as e:
         logger.error(f"Error creating video: {e}")
 
     finally:
-        for f in Path(CLIPS_DIR).glob("*"):
+        # Cleanup clips directory
+        for f in Path(clips_dir).glob("*"):
             f.unlink()
-            logger.info(f"Cleared clips at: {str(CLIPS_DIR)}")
+            logger.info(f"Cleared clips at: {str(clips_dir)}")
     
 
 
